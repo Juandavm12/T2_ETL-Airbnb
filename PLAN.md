@@ -1,5 +1,12 @@
 # ODD — primera unidad
 
+## Estado actual de entrega
+
+Repositorio público [T2_ETL-Airbnb](https://github.com/Juandavm12/T2_ETL-Airbnb)
+publicado en `main`, con push y API confirmados por el coordinador.
+Informe PDF **pendiente**, siguiente paso después de publicar el repositorio.
+Las unidades siguientes conservan su histórico; este cambio es solo documental.
+
 ## Objetivo y aceptación
 
 - [x] Importar tres CSV/gzip por lotes, preservar strings y verificar acuses/conteos.
@@ -324,7 +331,8 @@ Sin nuevas dependencias, servicios, DB writes, Git ni aprobación nativa.
 
 Al cierre histórico de Transformación, la siguiente unidad era Carga SQLite y
 XLSX por lotes; entonces no se implementaron Carga, informe ni publicación.
-Carga queda resuelta en la unidad siguiente; informe/publicación siguen pendientes.
+Carga queda resuelta en la unidad siguiente; informe/publicación estaban entonces
+pendientes. Estado actual de entrega al inicio de este documento.
 
 ## ODD — Carga SQLite/XLSX e integración completa
 
@@ -337,7 +345,8 @@ Guía página 5: SQLite obligatorio, exportación XLSX, verificación y logs.
 - [x] Checks, cierre/verificación XLSX y fuente antes del commit SQLite.
 - [x] Manifest completo publicado atómicamente **después** del commit SQLite.
 - [x] Logs y evidencia real persistida; verificación independiente conforme.
-- [ ] Publicación del repositorio; después PDF según orden solicitado.
+- [x] Publicación del [repositorio público](https://github.com/Juandavm12/T2_ETL-Airbnb) en `main`.
+- [ ] Informe PDF, después de la publicación según orden solicitado.
 - [x] Integrantes exactos registrados en README.
 - [x] Responsabilidades asignadas con autorización del usuario, detalladas en README;
   reparto equitativo, no atribución de contribuciones históricas.
@@ -407,5 +416,5 @@ Esta unidad de cierre es DOCS-only: README/PLAN actualizados y solo docstring de
 manifest o log. RED/GREEN no aplican a este cambio pasivo; no se repiten tests,
 CLI real, DB writes, servicios, dependencias o Git. Se verifican estructura,
 enlaces y coherencia con JSON persistido. Integración ETL ejecutada completa;
-publicación y PDF aún pendientes. Outputs/datasets/comentarios privados no van
+publicación y PDF entonces pendientes (estado actual al inicio). Outputs/datasets/comentarios privados no van
 a Git; evidencia pública pequeña requiere revisión de privacidad.

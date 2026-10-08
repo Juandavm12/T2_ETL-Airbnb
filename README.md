@@ -5,7 +5,9 @@ a DataFrames pandas por lotes. El EDA recorre las tres colecciones completas,
 con gráficos reales embebidos y evidencia JSON. La clase `Transformacion`
 produce tablas limpias por lote y auditoría JSON; `Carga` las inserta en SQLite
 nuevo y exporta XLSX particionados. La integración Extracción → Transformación →
-Carga se ejecutó completa; informe PDF y publicación siguen pendientes.
+Carga se ejecutó completa. Repositorio público:
+[T2_ETL-Airbnb](https://github.com/Juandavm12/T2_ETL-Airbnb), rama `main`.
+El informe PDF sigue **pendiente**.
 
 ## Objetivo
 
@@ -31,7 +33,9 @@ Requisitos: Python 3.14.7, pip y, para ejecutar el flujo real, MongoDB
 local disponible. La integración real ya se verificó en Ubuntu 24.04.4
 amd64 bajo WSL con MongoDB 8.0.32 local. El entorno `.venv` conserva
 Python 3.14.7, pandas 3.0.6, pymongo 4.18.2 y XlsxWriter 3.2.9;
-53 pruebas (32 previas + 21 Carga) y `pip check` fueron verificados.
+53 pruebas (32 previas + 21 Carga) y `pip check` fueron verificados en el
+entorno original; el repositorio publicado conserva ese snapshot de código y
+evidencia. No se ha validado una instalación limpia, otro equipo ni Windows.
 Usa primero el entorno existente, sin reinstalar:
 
 ```bash
@@ -39,7 +43,14 @@ Usa primero el entorno existente, sin reinstalar:
 .venv/bin/python -B -m pip check
 ```
 
-Los siguientes comandos de creación/instalación son solo para un equipo nuevo.
+Para un equipo nuevo, clona el repositorio y entra en su raíz:
+
+```bash
+git clone https://github.com/Juandavm12/T2_ETL-Airbnb.git
+cd T2_ETL-Airbnb
+```
+
+Los siguientes comandos de creación/instalación se ejecutan desde esa raíz.
 
 Desde esta carpeta, en Linux:
 
@@ -65,8 +76,8 @@ entorno verificado, incluidas transitivas. Las pruebas usan mocks, no necesitan 
 
 Conserva los CSV originales fuera del proyecto: por defecto se buscan
 `../Datasets/listings.csv`, `reviews.csv` y `calendar.csv`. Cada uno puede
-ser `.csv.gz`; si existen ambas variantes se prefiere CSV. Tras publicar
-este proyecto de manera independiente, obtén los datos originales del
+ser `.csv.gz`; si existen ambas variantes se prefiere CSV. Para el repositorio
+independiente publicado, obtén los datos originales del
 material del taller y usa `--ruta` hacia esa carpeta. No se copian ni se
 incluyen los datasets en esta entrega; no se inventa una URL de descarga.
 
@@ -123,9 +134,10 @@ independiente conforme. Históricamente etapa 1/EDA tuvieron 17 pruebas y
 Transformación 29, luego 32 tras correcciones. Notebook ejecutado desde MongoDB:
 8 celdas de código, 7 PNG, cero errores; 409,74 s observados.
 Carga SQLite/XLSX e integración completa verificadas; no equivale a entrega final.
-Pendientes: publicación del repositorio primero, después informe PDF, según el
-orden solicitado. Integrantes y responsabilidades asignadas se detallan arriba;
-no se afirma publicación Git ni PDF terminado.
+Repositorio público [T2_ETL-Airbnb](https://github.com/Juandavm12/T2_ETL-Airbnb)
+publicado en `main`, según confirmación remota del coordinador.
+Pendiente: informe PDF, después de la publicación según el orden solicitado.
+Integrantes y responsabilidades asignadas se detallan arriba; PDF no terminado.
 Revisión e histórico: [PLAN.md](PLAN.md).
 
 ## Reproducir el EDA sin reimportar
