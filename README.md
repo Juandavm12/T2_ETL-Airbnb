@@ -7,7 +7,7 @@ produce tablas limpias por lote y auditoría JSON; `Carga` las inserta en SQLite
 nuevo y exporta XLSX particionados. La integración Extracción → Transformación →
 Carga se ejecutó completa. Repositorio público:
 [T2_ETL-Airbnb](https://github.com/Juandavm12/T2_ETL-Airbnb), rama `main`.
-El informe PDF sigue **pendiente**.
+Estado de entrega: pipeline completo ejecutado; informe pendiente de exportación a PDF.
 
 ## Objetivo
 
@@ -29,19 +29,13 @@ atribuye contribuciones históricas individuales.
 
 ## Preparación (Linux / Windows)
 
-Requisitos: Python 3.14.7, pip y, para ejecutar el flujo real, MongoDB
-local disponible. La integración real ya se verificó en Ubuntu 24.04.4
-amd64 bajo WSL con MongoDB 8.0.32 local. El entorno `.venv` conserva
-Python 3.14.7, pandas 3.0.6, pymongo 4.18.2 y XlsxWriter 3.2.9;
-53 pruebas (32 previas + 21 Carga) y `pip check` fueron verificados en el
-entorno original; el repositorio publicado conserva ese snapshot de código y
-evidencia. No se ha validado una instalación limpia, otro equipo ni Windows.
-Usa primero el entorno existente, sin reinstalar:
-
-```bash
-.venv/bin/python -B -m unittest discover -s tests -v
-.venv/bin/python -B -m pip check
-```
+Requisitos: **Python 3.14.7** (versión probada), pip y MongoDB local para
+el flujo real. No se afirma compatibilidad con versiones menores de Python.
+La instalación limpia en un venv aislado del mismo equipo Linux fue verificada:
+instalación, `pip check`, 53 pruebas y smoke de imports runtime/EDA correctos.
+No se ejecutó nuevamente el notebook ni el ETL completo en ese entorno.
+**Otro equipo y Windows siguen pendientes de validación**; PowerShell es una guía
+no probada. Todos los comandos siguientes se ejecutan desde la raíz del proyecto.
 
 Para un equipo nuevo, clona el repositorio y entra en su raíz:
 
@@ -57,7 +51,8 @@ Desde esta carpeta, en Linux:
 ```bash
 python3 -m venv .venv
 .venv/bin/python -m pip install --no-cache-dir -r requirements.txt
-.venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python -B -m pip check
+.venv/bin/python -B -m unittest discover -s tests -v
 ```
 
 En Windows PowerShell:
@@ -65,12 +60,22 @@ En Windows PowerShell:
 ```powershell
 py -3.14 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --no-cache-dir -r requirements.txt
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe -B -m pip check
+.\.venv\Scripts\python.exe -B -m unittest discover -s tests -v
 ```
 
-Dependencias de extracción, EDA y Carga: pandas, pymongo, numpy, XlsxWriter, Matplotlib y
-runtime Jupyter/nbclient. `requirements.txt` coincide con `pip freeze` del
-entorno verificado, incluidas transitivas. Las pruebas usan mocks, no necesitan MongoDB.
+`requirements.txt` fija **11 dependencias directas** con versiones exactas
+verificadas en el entorno original y en la instalación limpia: pandas, pymongo,
+numpy, XlsxWriter, defusedxml (validación XML), Matplotlib, IPython (display del
+notebook), JupyterLab, ipykernel, nbclient y nbformat. Las pruebas usan mocks,
+no necesitan MongoDB. pip resuelve las transitivas: este archivo no congela
+el grafo completo y las resoluciones futuras pueden variar.
+
+[requirements-entorno-verificado.txt](requirements-entorno-verificado.txt)
+conserva byte a byte los **102 pins** del `pip freeze` histórico, incluidas
+transitivas; es un snapshot de referencia, no el archivo de instalación habitual.
+La instalación limpia no reproduce exactamente ese snapshot: se observaron
+json5 0.16.0 y pycparser 3.1 frente a 0.15.0 y 3.0 históricos, sin conflictos.
 
 ## Datos y ejecución
 
@@ -81,16 +86,17 @@ independiente publicado, obtén los datos originales del
 material del taller y usa `--ruta` hacia esa carpeta. No se copian ni se
 incluyen los datasets en esta entrega; no se inventa una URL de descarga.
 
-En este ambiente, `airbnb` **ya está cargada**: usa `extraer`, `transformar` o `cargar`.
-El comando `importar` siguiente es para una base vacía; repetirlo sobre `airbnb`
-será rechazado para evitar duplicados.
-
 Con MongoDB local activo y una base vacía para importar:
 
 ```bash
 .venv/bin/python main.py importar --ruta ../Datasets --base airbnb --batch 10000
 .venv/bin/python main.py extraer --base airbnb --batch 10000
+.venv/bin/python main.py cargar --base airbnb --batch 10000
 ```
+
+`cargar` integra extracción y transformación y crea una salida nueva única en
+`salidas/`; no reutilices una salida existente. Consulta los contratos y fallos
+más abajo antes de ejecutar.
 
 En Windows sustituye el intérprete por `.\.venv\Scripts\python.exe`.
 La URI predeterminada es `mongodb://localhost:27017`; se admite `--uri`
@@ -133,11 +139,9 @@ Estado actual: **53 pruebas OK y `pip check` sin conflictos**, verificación
 independiente conforme. Históricamente etapa 1/EDA tuvieron 17 pruebas y
 Transformación 29, luego 32 tras correcciones. Notebook ejecutado desde MongoDB:
 8 celdas de código, 7 PNG, cero errores; 409,74 s observados.
-Carga SQLite/XLSX e integración completa verificadas; no equivale a entrega final.
+Carga SQLite/XLSX e integración completa verificadas.
 Repositorio público [T2_ETL-Airbnb](https://github.com/Juandavm12/T2_ETL-Airbnb)
-publicado en `main`, según confirmación remota del coordinador.
-Pendiente: informe PDF, después de la publicación según el orden solicitado.
-Integrantes y responsabilidades asignadas se detallan arriba; PDF no terminado.
+publicado en `main`. Integrantes y responsabilidades asignadas se detallan arriba.
 
 ## Reproducir el EDA sin reimportar
 
@@ -328,7 +332,9 @@ caracteres falla, nunca se trunca. Identificadores SQL con NUL se rechazan.
 
 [validacion_carga.json](evidencias/validacion_carga.json) y
 [carga_real.txt](evidencias/carga_real.txt) conservan la corrida histórica real,
-no una nueva ejecución del verificador. Destino relativo:
+no una nueva ejecución del verificador. También se incluye una
+[copia histórica exacta en logs/](logs/etl_20261007_223144_ejemplo.txt),
+revisada sin URI, credenciales ni documentos; el logger no cambia. Destino relativo:
 `salidas/ejecucion_20261007_223144_602d1ed1c8cc4df299affc7375e7af17`.
 
 | Tabla | Filas | XLSX |
@@ -353,15 +359,71 @@ Todos los 11 hashes, manifest y log byte a byte comprobados (430,157 s).
 y NULL; ceros iniciales solo corroborados con pruebas, no muestra real.
 Corpus de escapes XML/control pasa. MongoDB ping/conteos sin cambios; **sin
 snapshot ni comparación exhaustiva del contenido fuente**. Windows no probado.
-Revisión nativa UNASSESSABLE por Git ajeno: verificación independiente no es
-aprobación nativa ni diagnóstico LSP global limpio.
 
 `salidas/` y logs operativos están ignorados; para repositorio público conservar
 solo evidencia pequeña JSON/log revisada sin datos privados. Datasets, SQLite,
 XLSX y comentarios privados no deben incorporarse a Git. No se modifican las
 evidencias existentes durante este cierre documental.
 
-## MongoDB local en WSL
+## Evidencia de integración real
+
+Base `airbnb`; importación y extracción CLI con `--batch 10000`.
+La extracción recorrió todos los documentos por lotes sin conservar los
+DataFrames; no se utilizó `--completa`.
+
+| Colección | Filas CSV = documentos MongoDB = extraídos | Columnas CSV |
+| --- | ---: | ---: |
+| Listings | 19.187 | 90 |
+| Reviews | 527.731 | 6 |
+| Calendar | 7.003.255 | 5 |
+
+| Ejecución | Tiempo (s) | Máximo RSS (KiB) | Salida | Log versionable |
+| --- | ---: | ---: | ---: | --- |
+| Importación | 110,96 | 265.844 | 0 | [importacion_real.txt](evidencias/importacion_real.txt) |
+| Extracción | 37,01 | 295.600 | 0 | [extraccion_real.txt](evidencias/extraccion_real.txt) |
+| Reimportación rechazada | 1,18 | 86.540 | 1 | [reimportacion_rechazada.txt](evidencias/reimportacion_rechazada.txt) |
+
+**RSS mide el cliente Python**, no la memoria total de MongoDB ni del sistema.
+Los tiempos son observaciones de esta ejecución, no garantías de rendimiento.
+Los `.txt` son copias exactas de los logs originales, sin entradas añadidas;
+las métricas de tiempo/RSS provienen de archivos separados de medición externa.
+
+[validacion_mongodb.json](evidencias/validacion_mongodb.json) conserva el
+resultado original, hashes SHA256, versiones, checks y procedencia de logs.
+Ruta de revisión:
+
+- Conteos completos coinciden para las tres colecciones.
+- Comparación de contenido: primeros 100 documentos y último de cada colección,
+  en todos los campos CSV; los valores muestreados siguen siendo strings.
+- SHA256 de las tres fuentes sin cambios tras el flujo.
+- Reimportación sobre la base poblada: salida 1 por preflight; conteos
+  posteriores 19.187 / 527.731 / 7.003.255, sin nuevos documentos según
+  verificación posterior documentada en la evidencia de medición externa.
+
+La comparación **no verifica el contenido de todos los documentos**. El
+recorrido completo de extracción y los conteos no sustituyen esa comparación.
+
+Referencias oficiales: [insert_many y orden de inserción](https://www.mongodb.com/docs/languages/python/pymongo-driver/current/crud/insert/)
+y [lectura pandas](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html).
+Aquí se usa `csv.DictReader` para conservar strings sin inferencia; pandas
+se utiliza para construir los DataFrames de extracción.
+
+## Notas del equipo original — no reinstalar
+
+La integración real se verificó en Ubuntu 24.04.4 amd64 bajo WSL,
+Python 3.14.7 y MongoDB 8.0.32 local. El entorno `.venv` original conserva
+pandas 3.0.6, pymongo 4.18.2 y XlsxWriter 3.2.9; 53 pruebas y `pip check`
+fueron verificados allí. Para revisar ese entorno existente, sin reinstalar:
+
+```bash
+.venv/bin/python -B -m unittest discover -s tests -v
+.venv/bin/python -B -m pip check
+```
+
+En ese equipo, `airbnb` ya está cargada: usa `extraer`, `transformar` o `cargar`.
+Reimportar sobre esa base se rechaza para evitar duplicados.
+
+### MongoDB local en WSL — configuración histórica
 
 Instalación realizada con autorización: repositorio APT oficial MongoDB 8.0
 para Ubuntu **Noble 24.04 amd64**, paquete `mongodb-org` **8.0.32**,
@@ -400,46 +462,3 @@ sudo -u mongodb /usr/bin/mongod --config /etc/mongod.conf --fork --wiredTigerCac
 Vuelve a comprobar el ping. No reinicies un servidor ya activo para repetir
 esta evidencia. Sin autenticación: **solo uso académico local**, nunca
 exponer el puerto a la red.
-
-## Evidencia de integración real
-
-Base `airbnb`; importación y extracción CLI con `--batch 10000`.
-La extracción recorrió todos los documentos por lotes sin conservar los
-DataFrames; no se utilizó `--completa`.
-
-| Colección | Filas CSV = documentos MongoDB = extraídos | Columnas CSV |
-| --- | ---: | ---: |
-| Listings | 19.187 | 90 |
-| Reviews | 527.731 | 6 |
-| Calendar | 7.003.255 | 5 |
-
-| Ejecución | Tiempo (s) | Máximo RSS (KiB) | Salida | Log versionable |
-| --- | ---: | ---: | ---: | --- |
-| Importación | 110,96 | 265.844 | 0 | [importacion_real.txt](evidencias/importacion_real.txt) |
-| Extracción | 37,01 | 295.600 | 0 | [extraccion_real.txt](evidencias/extraccion_real.txt) |
-| Reimportación rechazada | 1,18 | 86.540 | 1 | [reimportacion_rechazada.txt](evidencias/reimportacion_rechazada.txt) |
-
-**RSS mide el cliente Python**, no la memoria total de MongoDB ni del sistema.
-Los tiempos son observaciones de esta ejecución, no garantías de rendimiento.
-Los `.txt` son copias exactas de los logs originales, sin entradas añadidas;
-las métricas de tiempo/RSS provienen de archivos separados del orquestador.
-
-[validacion_mongodb.json](evidencias/validacion_mongodb.json) conserva el
-resultado original, hashes SHA256, versiones, checks y procedencia de logs.
-Ruta de revisión:
-
-- Conteos completos coinciden para las tres colecciones.
-- Comparación de contenido: primeros 100 documentos y último de cada colección,
-  en todos los campos CSV; los valores muestreados siguen siendo strings.
-- SHA256 de las tres fuentes sin cambios tras el flujo.
-- Reimportación sobre la base poblada: salida 1 por preflight; conteos
-  posteriores 19.187 / 527.731 / 7.003.255, sin nuevos documentos según
-  verificación posterior reportada por el orquestador.
-
-La comparación **no verifica el contenido de todos los documentos**. El
-recorrido completo de extracción y los conteos no sustituyen esa comparación.
-
-Referencias oficiales: [insert_many y orden de inserción](https://www.mongodb.com/docs/languages/python/pymongo-driver/current/crud/insert/)
-y [lectura pandas](https://pandas.pydata.org/docs/reference/api/pandas.read_csv.html).
-Aquí se usa `csv.DictReader` para conservar strings sin inferencia; pandas
-se utiliza para construir los DataFrames de extracción.

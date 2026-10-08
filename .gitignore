@@ -4,6 +4,7 @@ __pycache__/
 logs/*
 !logs/.gitkeep
 !logs/README.md
+!logs/etl_20261007_223144_ejemplo.txt
 salidas/
 tests/tmp_carga/
 .ruff_cache/
