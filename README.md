@@ -34,8 +34,11 @@ el flujo real. No se afirma compatibilidad con versiones menores de Python.
 La instalación limpia en un venv aislado del mismo equipo Linux fue verificada:
 instalación, `pip check`, 53 pruebas y smoke de imports runtime/EDA correctos.
 No se ejecutó nuevamente el notebook ni el ETL completo en ese entorno.
-**Otro equipo y Windows siguen pendientes de validación**; PowerShell es una guía
-no probada. Todos los comandos siguientes se ejecutan desde la raíz del proyecto.
+También se validó siguiendo este README en **otro equipo**: Fedora 44 (WSL) y
+Windows 11 Pro (build 26200, Windows PowerShell 5.1), ambos con Python 3.14.7:
+instalación, `pip check` y 53 pruebas correctos. En esos equipos no se ejecutó
+importación, ETL, carga ni notebook (sin MongoDB ni datasets).
+Todos los comandos siguientes se ejecutan desde la raíz del proyecto.
 
 Para un equipo nuevo, clona el repositorio y entra en su raíz:
 
@@ -55,7 +58,15 @@ python3 -m venv .venv
 .venv/bin/python -B -m unittest discover -s tests -v
 ```
 
-En Windows PowerShell:
+En Windows PowerShell. Requiere Python real con el lanzador `py`; el alias
+`python.exe` de Microsoft Store no basta. Si `py -3.14 --version` falla,
+instala la versión probada para tu usuario y abre una terminal nueva:
+
+```powershell
+winget install --id Python.Python.3.14 --version 3.14.7 --scope user --exact
+```
+
+Luego, desde la raíz del proyecto:
 
 ```powershell
 py -3.14 -m venv .venv
@@ -76,6 +87,12 @@ conserva byte a byte los **102 pins** del `pip freeze` histórico, incluidas
 transitivas; es un snapshot de referencia, no el archivo de instalación habitual.
 La instalación limpia no reproduce exactamente ese snapshot: se observaron
 json5 0.16.0 y pycparser 3.1 frente a 0.15.0 y 3.0 históricos, sin conflictos.
+El snapshot es de Linux: en Windows pip instala además colorama y pywinpty, y
+no instala pexpect ni ptyprocess (dependencias según sistema operativo).
+
+[.gitattributes](.gitattributes) excluye `evidencias/` y `logs/` de la conversión
+de fin de línea, para que un clon en Windows con `core.autocrlf=true` conserve
+los bytes y los SHA256 registrados en las evidencias JSON.
 
 ## Datos y ejecución
 

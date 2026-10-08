@@ -1,0 +1,5 @@
+# Evidencias y logs son copias byte a byte; sus SHA256 están registrados en
+# evidencias/*.json. Se excluyen de la conversión de fin de línea para que un
+# clon en Windows (core.autocrlf=true) conserve los mismos bytes y hashes.
+evidencias/** -text
+logs/** -text
