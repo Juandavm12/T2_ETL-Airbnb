@@ -1,0 +1,4 @@
+2026-10-07 20:27:26,261 INFO Conexión MongoDB establecida
+2026-10-07 20:27:26,310 ERROR Importación global fallida (ValueError)
+2026-10-07 20:27:26,311 INFO Conexión cerrada
+2026-10-07 20:27:26,311 ERROR Ejecución fallida (ValueError)

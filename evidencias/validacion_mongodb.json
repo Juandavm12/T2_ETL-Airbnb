@@ -1,0 +1,109 @@
+{
+  "checked_at_utc": "2026-10-08T01:27:25.317248+00:00",
+  "database": "airbnb",
+  "batch": 10000,
+  "versions": {
+    "mongodb": "8.0.32",
+    "python": "3.14.7",
+    "pandas": "3.0.6",
+    "pymongo": "4.18.2"
+  },
+  "server": {
+    "bindIp": "127.0.0.1",
+    "port": 27017,
+    "wiredTigerCacheSizeGB": 0.5,
+    "dbPath": "/var/lib/mongodb"
+  },
+  "collections": {
+    "Listings": {
+      "source_file": "listings.csv",
+      "bytes": 51968592,
+      "sha256": "0323af480f3d5662ecfc225cd4801f85c53c7faaa777092c5cce56d2a77e4b8a",
+      "rows": 19187,
+      "columns": 90,
+      "mongo_count": 19187,
+      "checks": {
+        "count_matches_source": true,
+        "first_100_documents_match_all_fields": true,
+        "last_document_matches_all_fields": true,
+        "sample_values_remain_strings": true,
+        "source_sha256_unchanged": true
+      }
+    },
+    "Reviews": {
+      "source_file": "reviews.csv",
+      "bytes": 120929605,
+      "sha256": "b41c5edbcd72d0d83a6e4a93574e522007e3857a458c06f2e450608d2b2ae72e",
+      "rows": 527731,
+      "columns": 6,
+      "mongo_count": 527731,
+      "checks": {
+        "count_matches_source": true,
+        "first_100_documents_match_all_fields": true,
+        "last_document_matches_all_fields": true,
+        "sample_values_remain_strings": true,
+        "source_sha256_unchanged": true
+      }
+    },
+    "Calendar": {
+      "source_file": "calendar.csv",
+      "bytes": 256873142,
+      "sha256": "20c2077061a8f2160db4fef8aaf316dbb2fcffa63c8f5d8bfed3d46a2a3e67c2",
+      "rows": 7003255,
+      "columns": 5,
+      "mongo_count": 7003255,
+      "checks": {
+        "count_matches_source": true,
+        "first_100_documents_match_all_fields": true,
+        "last_document_matches_all_fields": true,
+        "sample_values_remain_strings": true,
+        "source_sha256_unchanged": true
+      }
+    }
+  },
+  "limitations": [
+    "Las comparaciones de contenido cubren los primeros 100 y el último documento por colección, no todos los documentos.",
+    "ETL posterior de transformación, SQLite, XLSX y EDA aún pendiente."
+  ],
+  "evidence_provenance": {
+    "validation_source": "/tmp/airbnb-etl-real-validation.json",
+    "relative_paths_base": "etl_airbnb/",
+    "metrics_scope": "RSS máximo del cliente Python; no incluye servidor MongoDB."
+  },
+  "executions": {
+    "importacion_real": {
+      "elapsed_seconds": 110.96,
+      "max_rss_kib": 265844,
+      "exit_code": 0,
+      "metrics_source": "/tmp/airbnb-etl-import-metrics.txt",
+      "log_source": "logs/etl_20261007_202350_96908d9f519e4753824e9ad9b473af9a.log",
+      "evidence_file": "evidencias/importacion_real.txt"
+    },
+    "extraccion_real": {
+      "elapsed_seconds": 37.01,
+      "max_rss_kib": 295600,
+      "exit_code": 0,
+      "metrics_source": "/tmp/airbnb-etl-extract-metrics.txt",
+      "log_source": "logs/etl_20261007_202550_c08338be500e4981a2ecb286090d3966.log",
+      "evidence_file": "evidencias/extraccion_real.txt"
+    },
+    "reimportacion_rechazada": {
+      "elapsed_seconds": 1.18,
+      "max_rss_kib": 86540,
+      "exit_code": 1,
+      "metrics_source": "/tmp/airbnb-etl-repeat-import-metrics.txt",
+      "log_source": "logs/etl_20261007_202726_631418c00b9942abad1372b75b94363e.log",
+      "evidence_file": "evidencias/reimportacion_rechazada.txt"
+    }
+  },
+  "post_rejected_import": {
+    "counts": {
+      "Listings": 19187,
+      "Reviews": 527731,
+      "Calendar": 7003255
+    },
+    "counts_unchanged": true,
+    "new_documents": 0,
+    "provenance": "Verificación posterior reportada por el orquestador; no figura en el log de rechazo ni en el JSON fuente."
+  }
+}

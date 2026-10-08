@@ -1,0 +1,8 @@
+2026-10-07 20:25:50,209 INFO Conexión MongoDB establecida
+2026-10-07 20:25:52,320 INFO Listings: 19187 documentos
+2026-10-07 20:25:54,139 INFO Listings: extraídos 19187
+2026-10-07 20:25:54,377 INFO Reviews: 527731 documentos
+2026-10-07 20:25:57,185 INFO Reviews: extraídos 527731
+2026-10-07 20:25:59,252 INFO Calendar: 7003255 documentos
+2026-10-07 20:26:26,056 INFO Calendar: extraídos 7003255
+2026-10-07 20:26:26,058 INFO Conexión cerrada

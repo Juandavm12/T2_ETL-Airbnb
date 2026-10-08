@@ -1,0 +1,597 @@
+{
+  "fuente": "MongoDB solo lectura",
+  "batch": 10000,
+  "snapshot": false,
+  "carga_ejecutada": false,
+  "precio_unidades": "nominales; moneda no confirmada",
+  "rangos": {
+    "Q1": "p <= 110000",
+    "Q2": "110000 < p <= 161460",
+    "Q3": "161460 < p <= 230346.375",
+    "Q4": "p > 230346.375"
+  },
+  "colecciones": {
+    "Listings": {
+      "fuente_antes": 19187,
+      "lotes": 2,
+      "antes": 19187,
+      "despues": 19187,
+      "duplicados_exactos": 0,
+      "conversiones": {
+        "accommodates": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "availability_30": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "availability_365": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "availability_60": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "availability_90": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "availability_eoy": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "bathrooms": {
+          "validos": 18121,
+          "faltantes": 1066,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "bedrooms": {
+          "validos": 16228,
+          "faltantes": 2959,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "beds": {
+          "validos": 18896,
+          "faltantes": 291,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "calculated_host_listings_count": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "calculated_host_listings_count_entire_homes": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "calculated_host_listings_count_private_rooms": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "calculated_host_listings_count_shared_rooms": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "calendar_last_scraped": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "estimated_occupancy_l365d": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "estimated_revenue_l365d": {
+          "validos": 18980,
+          "faltantes": 207,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "first_review": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "has_availability": {
+          "validos": 19057,
+          "faltantes": 130,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "host_has_profile_pic": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "host_identity_verified": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "host_is_superhost": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "host_listings_count": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "host_since": {
+          "validos": 0,
+          "faltantes": 19187,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "host_total_listings_count": {
+          "validos": 0,
+          "faltantes": 19187,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "hosts_time_as_host_months": {
+          "validos": 19186,
+          "faltantes": 1,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "hosts_time_as_host_years": {
+          "validos": 19186,
+          "faltantes": 1,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "hosts_time_as_user_months": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "hosts_time_as_user_years": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "instant_bookable": {
+          "validos": 0,
+          "faltantes": 19187,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "last_review": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "last_scraped": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "latitude": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "longitude": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "maximum_maximum_nights": {
+          "validos": 19183,
+          "faltantes": 4,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "maximum_minimum_nights": {
+          "validos": 19183,
+          "faltantes": 4,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "maximum_nights": {
+          "validos": 19183,
+          "faltantes": 4,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "maximum_nights_avg_ntm": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "minimum_maximum_nights": {
+          "validos": 19183,
+          "faltantes": 4,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "minimum_minimum_nights": {
+          "validos": 19183,
+          "faltantes": 4,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "minimum_nights": {
+          "validos": 19183,
+          "faltantes": 4,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "minimum_nights_avg_ntm": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "number_of_reviews": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "number_of_reviews_l30d": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "number_of_reviews_ltm": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "number_of_reviews_ly": {
+          "validos": 19187,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "price": {
+          "validos": 18992,
+          "faltantes": 195,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "price_quote_checkin_date": {
+          "validos": 19184,
+          "faltantes": 3,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "price_quote_checkout_date": {
+          "validos": 19184,
+          "faltantes": 3,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "price_quote_price_per_night": {
+          "validos": 18992,
+          "faltantes": 195,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "price_quote_total_price": {
+          "validos": 18992,
+          "faltantes": 195,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_accuracy": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_checkin": {
+          "validos": 14921,
+          "faltantes": 4266,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_cleanliness": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_communication": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_location": {
+          "validos": 14921,
+          "faltantes": 4266,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_rating": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "review_scores_value": {
+          "validos": 14921,
+          "faltantes": 4266,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "reviews_per_month": {
+          "validos": 14922,
+          "faltantes": 4265,
+          "invalidos": 0,
+          "no_finitos": 0
+        }
+      },
+      "dominios": {
+        "accommodates": 0,
+        "availability_30": 0,
+        "availability_365": 0,
+        "availability_60": 0,
+        "availability_90": 0,
+        "availability_eoy": 0,
+        "bathrooms": 0,
+        "bedrooms": 0,
+        "beds": 0,
+        "calculated_host_listings_count": 0,
+        "calculated_host_listings_count_entire_homes": 0,
+        "calculated_host_listings_count_private_rooms": 0,
+        "calculated_host_listings_count_shared_rooms": 0,
+        "estimated_occupancy_l365d": 0,
+        "estimated_revenue_l365d": 0,
+        "host_listings_count": 0,
+        "host_total_listings_count": 0,
+        "hosts_time_as_host_months": 0,
+        "hosts_time_as_host_years": 0,
+        "hosts_time_as_user_months": 0,
+        "hosts_time_as_user_years": 0,
+        "latitude": 0,
+        "longitude": 0,
+        "maximum_maximum_nights": 0,
+        "maximum_minimum_nights": 0,
+        "maximum_nights": 0,
+        "maximum_nights_avg_ntm": 0,
+        "minimum_maximum_nights": 0,
+        "minimum_minimum_nights": 0,
+        "minimum_nights": 0,
+        "minimum_nights_avg_ntm": 0,
+        "number_of_reviews": 0,
+        "number_of_reviews_l30d": 0,
+        "number_of_reviews_ltm": 0,
+        "number_of_reviews_ly": 0,
+        "price": 0,
+        "price_quote_price_per_night": 0,
+        "price_quote_total_price": 0,
+        "review_scores_accuracy": 0,
+        "review_scores_checkin": 0,
+        "review_scores_cleanliness": 0,
+        "review_scores_communication": 0,
+        "review_scores_location": 0,
+        "review_scores_rating": 0,
+        "review_scores_value": 0,
+        "reviews_per_month": 0
+      },
+      "nulos_normalizados": {
+        "listing_url": 0,
+        "last_scraped": 0,
+        "source": 0,
+        "name": 0,
+        "description": 523,
+        "neighborhood_overview": 19187,
+        "picture_url": 0,
+        "host_url": 0,
+        "host_profile_url": 0,
+        "host_name": 0,
+        "host_since": 19187,
+        "hosts_time_as_user_years": 0,
+        "hosts_time_as_user_months": 0,
+        "hosts_time_as_host_years": 1,
+        "hosts_time_as_host_months": 1,
+        "host_location": 5157,
+        "host_about": 8799,
+        "host_response_time": 19187,
+        "host_response_rate": 19187,
+        "host_acceptance_rate": 19187,
+        "host_is_superhost": 0,
+        "host_thumbnail_url": 19187,
+        "host_picture_url": 0,
+        "host_neighbourhood": 19187,
+        "host_listings_count": 0,
+        "host_total_listings_count": 19187,
+        "host_verifications": 19187,
+        "host_has_profile_pic": 0,
+        "host_identity_verified": 0,
+        "neighbourhood": 19187,
+        "neighbourhood_cleansed": 0,
+        "neighbourhood_group_cleansed": 19187,
+        "latitude": 0,
+        "longitude": 0,
+        "property_type": 0,
+        "room_type": 0,
+        "accommodates": 0,
+        "bathrooms": 1066,
+        "bathrooms_text": 29,
+        "bedrooms": 2959,
+        "beds": 291,
+        "amenities": 0,
+        "price": 195,
+        "price_quote_checkin_date": 3,
+        "price_quote_checkout_date": 3,
+        "price_quote_total_price": 195,
+        "price_quote_price_per_night": 195,
+        "price_quote_raw": 3,
+        "minimum_nights": 4,
+        "maximum_nights": 4,
+        "minimum_minimum_nights": 4,
+        "maximum_minimum_nights": 4,
+        "minimum_maximum_nights": 4,
+        "maximum_maximum_nights": 4,
+        "minimum_nights_avg_ntm": 0,
+        "maximum_nights_avg_ntm": 0,
+        "calendar_updated": 19187,
+        "has_availability": 130,
+        "availability_30": 0,
+        "availability_60": 0,
+        "availability_90": 0,
+        "availability_365": 0,
+        "calendar_last_scraped": 0,
+        "number_of_reviews": 0,
+        "number_of_reviews_ltm": 0,
+        "number_of_reviews_l30d": 0,
+        "availability_eoy": 0,
+        "number_of_reviews_ly": 0,
+        "estimated_occupancy_l365d": 0,
+        "estimated_revenue_l365d": 207,
+        "first_review": 4265,
+        "last_review": 4265,
+        "review_scores_rating": 4265,
+        "review_scores_accuracy": 4265,
+        "review_scores_cleanliness": 4265,
+        "review_scores_checkin": 4266,
+        "review_scores_communication": 4265,
+        "review_scores_location": 4266,
+        "review_scores_value": 4266,
+        "license": 2932,
+        "instant_bookable": 19187,
+        "calculated_host_listings_count": 0,
+        "calculated_host_listings_count_entire_homes": 0,
+        "calculated_host_listings_count_private_rooms": 0,
+        "calculated_host_listings_count_shared_rooms": 0,
+        "reviews_per_month": 4265
+      },
+      "tablas": {
+        "Listings": 19187,
+        "ListingAmenities": 505595
+      },
+      "price_outliers": 1410,
+      "amenities": {
+        "validos": 19187,
+        "invalidos": 0,
+        "faltantes": 0,
+        "duplicados_intralista": 0
+      },
+      "fuente_despues": 19187,
+      "duplicados_globales": 0
+    },
+    "Reviews": {
+      "fuente_antes": 527731,
+      "lotes": 53,
+      "antes": 527731,
+      "despues": 527731,
+      "duplicados_exactos": 0,
+      "conversiones": {
+        "date": {
+          "validos": 527731,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        }
+      },
+      "dominios": {},
+      "nulos_normalizados": {
+        "date": 0,
+        "reviewer_name": 0,
+        "comments": 0
+      },
+      "tablas": {
+        "Reviews": 527731
+      },
+      "fuente_despues": 527731,
+      "duplicados_globales": 0
+    },
+    "Calendar": {
+      "fuente_antes": 7003255,
+      "lotes": 701,
+      "antes": 7003255,
+      "despues": 7003255,
+      "duplicados_exactos": 0,
+      "conversiones": {
+        "available": {
+          "validos": 7003255,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "date": {
+          "validos": 7003255,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "maximum_nights": {
+          "validos": 7003255,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        },
+        "minimum_nights": {
+          "validos": 7003255,
+          "faltantes": 0,
+          "invalidos": 0,
+          "no_finitos": 0
+        }
+      },
+      "dominios": {
+        "maximum_nights": 0,
+        "minimum_nights": 0
+      },
+      "nulos_normalizados": {
+        "available": 0,
+        "minimum_nights": 0,
+        "maximum_nights": 0
+      },
+      "tablas": {
+        "Calendar": 7003255
+      },
+      "fuente_despues": 7003255,
+      "duplicados_globales": 0
+    }
+  },
+  "duracion_segundos": 199.99301223600014,
+  "log": "logs/etl_20261007_215141_bf568895884a4530a443ea94dc4867c9.log",
+  "invariantes": "conteos antes/después y conversiones conservan filas"
+}

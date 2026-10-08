@@ -1,0 +1,1526 @@
+2026-10-07 22:31:44,213 INFO Conexión MongoDB establecida
+2026-10-07 22:31:46,113 INFO Carga iniciada; destino=ejecucion_20261007_223144_602d1ed1c8cc4df299affc7375e7af17
+2026-10-07 22:31:46,114 WARNING Sin snapshot transaccional: no ejecutar con escritores concurrentes
+2026-10-07 22:33:26,350 INFO Preflight global sin duplicados; claves exactas
+2026-10-07 22:33:26,446 INFO Listings: 19187 documentos
+2026-10-07 22:33:28,634 INFO Listings transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:33,875 INFO Carga Listings: lote=10000 acumulado=10000
+2026-10-07 22:33:39,047 INFO Carga ListingAmenities: lote=273676 acumulado=273676
+2026-10-07 22:33:40,939 INFO Listings transformación: antes=9187 después=9187; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:45,457 INFO Carga Listings: lote=9187 acumulado=19187
+2026-10-07 22:33:49,856 INFO Carga ListingAmenities: lote=231919 acumulado=505595
+2026-10-07 22:33:49,856 INFO Listings: extraídos 19187
+2026-10-07 22:33:50,371 INFO Reviews: 527731 documentos
+2026-10-07 22:33:50,514 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:51,271 INFO Carga Reviews: lote=10000 acumulado=10000
+2026-10-07 22:33:51,404 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:52,114 INFO Carga Reviews: lote=10000 acumulado=20000
+2026-10-07 22:33:52,253 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:52,949 INFO Carga Reviews: lote=10000 acumulado=30000
+2026-10-07 22:33:53,077 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:53,797 INFO Carga Reviews: lote=10000 acumulado=40000
+2026-10-07 22:33:53,930 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:54,617 INFO Carga Reviews: lote=10000 acumulado=50000
+2026-10-07 22:33:54,765 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:55,464 INFO Carga Reviews: lote=10000 acumulado=60000
+2026-10-07 22:33:55,597 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:56,319 INFO Carga Reviews: lote=10000 acumulado=70000
+2026-10-07 22:33:56,455 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:57,167 INFO Carga Reviews: lote=10000 acumulado=80000
+2026-10-07 22:33:57,295 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:58,055 INFO Carga Reviews: lote=10000 acumulado=90000
+2026-10-07 22:33:58,195 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:58,898 INFO Carga Reviews: lote=10000 acumulado=100000
+2026-10-07 22:33:59,039 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:33:59,752 INFO Carga Reviews: lote=10000 acumulado=110000
+2026-10-07 22:33:59,881 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:00,591 INFO Carga Reviews: lote=10000 acumulado=120000
+2026-10-07 22:34:00,722 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:01,436 INFO Carga Reviews: lote=10000 acumulado=130000
+2026-10-07 22:34:01,565 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:02,307 INFO Carga Reviews: lote=10000 acumulado=140000
+2026-10-07 22:34:02,467 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:03,167 INFO Carga Reviews: lote=10000 acumulado=150000
+2026-10-07 22:34:03,303 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:04,027 INFO Carga Reviews: lote=10000 acumulado=160000
+2026-10-07 22:34:04,160 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:04,852 INFO Carga Reviews: lote=10000 acumulado=170000
+2026-10-07 22:34:04,993 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:05,714 INFO Carga Reviews: lote=10000 acumulado=180000
+2026-10-07 22:34:05,853 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:06,569 INFO Carga Reviews: lote=10000 acumulado=190000
+2026-10-07 22:34:06,700 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:07,389 INFO Carga Reviews: lote=10000 acumulado=200000
+2026-10-07 22:34:07,519 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:08,254 INFO Carga Reviews: lote=10000 acumulado=210000
+2026-10-07 22:34:08,384 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:09,079 INFO Carga Reviews: lote=10000 acumulado=220000
+2026-10-07 22:34:09,220 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:09,930 INFO Carga Reviews: lote=10000 acumulado=230000
+2026-10-07 22:34:10,057 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:10,775 INFO Carga Reviews: lote=10000 acumulado=240000
+2026-10-07 22:34:10,904 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:11,637 INFO Carga Reviews: lote=10000 acumulado=250000
+2026-10-07 22:34:11,769 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:12,488 INFO Carga Reviews: lote=10000 acumulado=260000
+2026-10-07 22:34:12,623 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:13,360 INFO Carga Reviews: lote=10000 acumulado=270000
+2026-10-07 22:34:13,491 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:14,213 INFO Carga Reviews: lote=10000 acumulado=280000
+2026-10-07 22:34:14,343 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:15,066 INFO Carga Reviews: lote=10000 acumulado=290000
+2026-10-07 22:34:15,201 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:15,930 INFO Carga Reviews: lote=10000 acumulado=300000
+2026-10-07 22:34:16,088 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:16,803 INFO Carga Reviews: lote=10000 acumulado=310000
+2026-10-07 22:34:16,932 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:17,659 INFO Carga Reviews: lote=10000 acumulado=320000
+2026-10-07 22:34:17,787 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:18,515 INFO Carga Reviews: lote=10000 acumulado=330000
+2026-10-07 22:34:18,646 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:19,364 INFO Carga Reviews: lote=10000 acumulado=340000
+2026-10-07 22:34:19,495 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:20,227 INFO Carga Reviews: lote=10000 acumulado=350000
+2026-10-07 22:34:20,357 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:21,082 INFO Carga Reviews: lote=10000 acumulado=360000
+2026-10-07 22:34:21,234 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:21,950 INFO Carga Reviews: lote=10000 acumulado=370000
+2026-10-07 22:34:22,078 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:22,794 INFO Carga Reviews: lote=10000 acumulado=380000
+2026-10-07 22:34:22,925 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:23,640 INFO Carga Reviews: lote=10000 acumulado=390000
+2026-10-07 22:34:23,771 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:24,484 INFO Carga Reviews: lote=10000 acumulado=400000
+2026-10-07 22:34:24,617 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:25,306 INFO Carga Reviews: lote=10000 acumulado=410000
+2026-10-07 22:34:25,440 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:26,148 INFO Carga Reviews: lote=10000 acumulado=420000
+2026-10-07 22:34:26,289 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:26,990 INFO Carga Reviews: lote=10000 acumulado=430000
+2026-10-07 22:34:27,128 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:27,856 INFO Carga Reviews: lote=10000 acumulado=440000
+2026-10-07 22:34:27,995 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:28,722 INFO Carga Reviews: lote=10000 acumulado=450000
+2026-10-07 22:34:28,856 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:29,675 INFO Carga Reviews: lote=10000 acumulado=460000
+2026-10-07 22:34:29,826 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:30,585 INFO Carga Reviews: lote=10000 acumulado=470000
+2026-10-07 22:34:30,719 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:31,481 INFO Carga Reviews: lote=10000 acumulado=480000
+2026-10-07 22:34:31,619 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:32,358 INFO Carga Reviews: lote=10000 acumulado=490000
+2026-10-07 22:34:32,488 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:33,229 INFO Carga Reviews: lote=10000 acumulado=500000
+2026-10-07 22:34:33,356 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:34,053 INFO Carga Reviews: lote=10000 acumulado=510000
+2026-10-07 22:34:34,206 INFO Reviews transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:34,978 INFO Carga Reviews: lote=10000 acumulado=520000
+2026-10-07 22:34:35,080 INFO Reviews transformación: antes=7731 después=7731; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:35,649 INFO Carga Reviews: lote=7731 acumulado=527731
+2026-10-07 22:34:35,649 INFO Reviews: extraídos 527731
+2026-10-07 22:34:37,286 INFO Calendar: 7003255 documentos
+2026-10-07 22:34:37,413 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:37,990 INFO Carga Calendar: lote=10000 acumulado=10000
+2026-10-07 22:34:38,139 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:38,685 INFO Carga Calendar: lote=10000 acumulado=20000
+2026-10-07 22:34:38,828 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:39,419 INFO Carga Calendar: lote=10000 acumulado=30000
+2026-10-07 22:34:39,553 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:40,138 INFO Carga Calendar: lote=10000 acumulado=40000
+2026-10-07 22:34:40,289 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:40,821 INFO Carga Calendar: lote=10000 acumulado=50000
+2026-10-07 22:34:40,964 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:41,524 INFO Carga Calendar: lote=10000 acumulado=60000
+2026-10-07 22:34:41,656 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:42,215 INFO Carga Calendar: lote=10000 acumulado=70000
+2026-10-07 22:34:42,352 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:42,910 INFO Carga Calendar: lote=10000 acumulado=80000
+2026-10-07 22:34:43,045 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:43,603 INFO Carga Calendar: lote=10000 acumulado=90000
+2026-10-07 22:34:43,743 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:44,314 INFO Carga Calendar: lote=10000 acumulado=100000
+2026-10-07 22:34:44,448 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:45,053 INFO Carga Calendar: lote=10000 acumulado=110000
+2026-10-07 22:34:45,202 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:45,776 INFO Carga Calendar: lote=10000 acumulado=120000
+2026-10-07 22:34:45,916 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:46,508 INFO Carga Calendar: lote=10000 acumulado=130000
+2026-10-07 22:34:46,649 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:47,232 INFO Carga Calendar: lote=10000 acumulado=140000
+2026-10-07 22:34:47,377 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:47,958 INFO Carga Calendar: lote=10000 acumulado=150000
+2026-10-07 22:34:48,095 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:48,704 INFO Carga Calendar: lote=10000 acumulado=160000
+2026-10-07 22:34:48,856 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:49,440 INFO Carga Calendar: lote=10000 acumulado=170000
+2026-10-07 22:34:49,576 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:50,172 INFO Carga Calendar: lote=10000 acumulado=180000
+2026-10-07 22:34:50,306 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:50,888 INFO Carga Calendar: lote=10000 acumulado=190000
+2026-10-07 22:34:51,045 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:51,627 INFO Carga Calendar: lote=10000 acumulado=200000
+2026-10-07 22:34:51,776 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:52,365 INFO Carga Calendar: lote=10000 acumulado=210000
+2026-10-07 22:34:52,511 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:53,093 INFO Carga Calendar: lote=10000 acumulado=220000
+2026-10-07 22:34:53,258 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:53,861 INFO Carga Calendar: lote=10000 acumulado=230000
+2026-10-07 22:34:54,017 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:54,609 INFO Carga Calendar: lote=10000 acumulado=240000
+2026-10-07 22:34:54,747 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:55,377 INFO Carga Calendar: lote=10000 acumulado=250000
+2026-10-07 22:34:55,532 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:56,139 INFO Carga Calendar: lote=10000 acumulado=260000
+2026-10-07 22:34:56,291 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:56,878 INFO Carga Calendar: lote=10000 acumulado=270000
+2026-10-07 22:34:57,030 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:57,622 INFO Carga Calendar: lote=10000 acumulado=280000
+2026-10-07 22:34:57,768 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:58,344 INFO Carga Calendar: lote=10000 acumulado=290000
+2026-10-07 22:34:58,493 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:59,097 INFO Carga Calendar: lote=10000 acumulado=300000
+2026-10-07 22:34:59,282 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:34:59,868 INFO Carga Calendar: lote=10000 acumulado=310000
+2026-10-07 22:35:00,054 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:00,651 INFO Carga Calendar: lote=10000 acumulado=320000
+2026-10-07 22:35:00,799 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:01,394 INFO Carga Calendar: lote=10000 acumulado=330000
+2026-10-07 22:35:01,540 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:02,151 INFO Carga Calendar: lote=10000 acumulado=340000
+2026-10-07 22:35:02,295 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:02,881 INFO Carga Calendar: lote=10000 acumulado=350000
+2026-10-07 22:35:03,021 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:03,599 INFO Carga Calendar: lote=10000 acumulado=360000
+2026-10-07 22:35:03,745 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:04,321 INFO Carga Calendar: lote=10000 acumulado=370000
+2026-10-07 22:35:04,473 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:05,070 INFO Carga Calendar: lote=10000 acumulado=380000
+2026-10-07 22:35:05,212 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:05,764 INFO Carga Calendar: lote=10000 acumulado=390000
+2026-10-07 22:35:05,909 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:06,489 INFO Carga Calendar: lote=10000 acumulado=400000
+2026-10-07 22:35:06,645 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:07,242 INFO Carga Calendar: lote=10000 acumulado=410000
+2026-10-07 22:35:07,391 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:07,974 INFO Carga Calendar: lote=10000 acumulado=420000
+2026-10-07 22:35:08,108 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:08,696 INFO Carga Calendar: lote=10000 acumulado=430000
+2026-10-07 22:35:08,833 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:09,410 INFO Carga Calendar: lote=10000 acumulado=440000
+2026-10-07 22:35:09,552 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:10,113 INFO Carga Calendar: lote=10000 acumulado=450000
+2026-10-07 22:35:10,283 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:10,889 INFO Carga Calendar: lote=10000 acumulado=460000
+2026-10-07 22:35:11,035 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:11,627 INFO Carga Calendar: lote=10000 acumulado=470000
+2026-10-07 22:35:11,768 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:12,384 INFO Carga Calendar: lote=10000 acumulado=480000
+2026-10-07 22:35:12,518 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:13,129 INFO Carga Calendar: lote=10000 acumulado=490000
+2026-10-07 22:35:13,285 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:13,887 INFO Carga Calendar: lote=10000 acumulado=500000
+2026-10-07 22:35:14,033 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:14,663 INFO Carga Calendar: lote=10000 acumulado=510000
+2026-10-07 22:35:14,803 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:15,475 INFO Carga Calendar: lote=10000 acumulado=520000
+2026-10-07 22:35:15,609 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:16,210 INFO Carga Calendar: lote=10000 acumulado=530000
+2026-10-07 22:35:16,357 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:16,967 INFO Carga Calendar: lote=10000 acumulado=540000
+2026-10-07 22:35:17,124 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:17,693 INFO Carga Calendar: lote=10000 acumulado=550000
+2026-10-07 22:35:17,831 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:18,433 INFO Carga Calendar: lote=10000 acumulado=560000
+2026-10-07 22:35:18,579 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:19,199 INFO Carga Calendar: lote=10000 acumulado=570000
+2026-10-07 22:35:19,355 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:19,947 INFO Carga Calendar: lote=10000 acumulado=580000
+2026-10-07 22:35:20,087 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:20,736 INFO Carga Calendar: lote=10000 acumulado=590000
+2026-10-07 22:35:20,898 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:21,543 INFO Carga Calendar: lote=10000 acumulado=600000
+2026-10-07 22:35:21,697 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:22,329 INFO Carga Calendar: lote=10000 acumulado=610000
+2026-10-07 22:35:22,476 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:23,070 INFO Carga Calendar: lote=10000 acumulado=620000
+2026-10-07 22:35:23,227 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:23,849 INFO Carga Calendar: lote=10000 acumulado=630000
+2026-10-07 22:35:24,004 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:24,598 INFO Carga Calendar: lote=10000 acumulado=640000
+2026-10-07 22:35:24,734 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:25,369 INFO Carga Calendar: lote=10000 acumulado=650000
+2026-10-07 22:35:25,542 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:26,155 INFO Carga Calendar: lote=10000 acumulado=660000
+2026-10-07 22:35:26,399 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:27,001 INFO Carga Calendar: lote=10000 acumulado=670000
+2026-10-07 22:35:27,132 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:27,720 INFO Carga Calendar: lote=10000 acumulado=680000
+2026-10-07 22:35:27,858 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:28,449 INFO Carga Calendar: lote=10000 acumulado=690000
+2026-10-07 22:35:28,589 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:29,192 INFO Carga Calendar: lote=10000 acumulado=700000
+2026-10-07 22:35:29,344 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:29,928 INFO Carga Calendar: lote=10000 acumulado=710000
+2026-10-07 22:35:30,073 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:30,698 INFO Carga Calendar: lote=10000 acumulado=720000
+2026-10-07 22:35:30,844 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:31,421 INFO Carga Calendar: lote=10000 acumulado=730000
+2026-10-07 22:35:31,580 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:32,191 INFO Carga Calendar: lote=10000 acumulado=740000
+2026-10-07 22:35:32,344 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:32,937 INFO Carga Calendar: lote=10000 acumulado=750000
+2026-10-07 22:35:33,083 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:33,692 INFO Carga Calendar: lote=10000 acumulado=760000
+2026-10-07 22:35:33,836 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:34,404 INFO Carga Calendar: lote=10000 acumulado=770000
+2026-10-07 22:35:34,541 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:35,160 INFO Carga Calendar: lote=10000 acumulado=780000
+2026-10-07 22:35:35,305 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:35,903 INFO Carga Calendar: lote=10000 acumulado=790000
+2026-10-07 22:35:36,066 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:36,684 INFO Carga Calendar: lote=10000 acumulado=800000
+2026-10-07 22:35:36,820 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:37,450 INFO Carga Calendar: lote=10000 acumulado=810000
+2026-10-07 22:35:37,597 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:38,225 INFO Carga Calendar: lote=10000 acumulado=820000
+2026-10-07 22:35:38,363 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:38,985 INFO Carga Calendar: lote=10000 acumulado=830000
+2026-10-07 22:35:39,154 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:39,755 INFO Carga Calendar: lote=10000 acumulado=840000
+2026-10-07 22:35:39,908 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:40,549 INFO Carga Calendar: lote=10000 acumulado=850000
+2026-10-07 22:35:40,688 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:41,364 INFO Carga Calendar: lote=10000 acumulado=860000
+2026-10-07 22:35:41,514 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:42,128 INFO Carga Calendar: lote=10000 acumulado=870000
+2026-10-07 22:35:42,302 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:42,899 INFO Carga Calendar: lote=10000 acumulado=880000
+2026-10-07 22:35:43,063 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:43,668 INFO Carga Calendar: lote=10000 acumulado=890000
+2026-10-07 22:35:43,818 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:44,445 INFO Carga Calendar: lote=10000 acumulado=900000
+2026-10-07 22:35:44,575 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:45,168 INFO Carga Calendar: lote=10000 acumulado=910000
+2026-10-07 22:35:45,320 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:45,920 INFO Carga Calendar: lote=10000 acumulado=920000
+2026-10-07 22:35:46,067 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:46,693 INFO Carga Calendar: lote=10000 acumulado=930000
+2026-10-07 22:35:46,834 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:47,457 INFO Carga Calendar: lote=10000 acumulado=940000
+2026-10-07 22:35:47,586 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:48,215 INFO Carga Calendar: lote=10000 acumulado=950000
+2026-10-07 22:35:48,364 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:48,952 INFO Carga Calendar: lote=10000 acumulado=960000
+2026-10-07 22:35:49,086 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:49,725 INFO Carga Calendar: lote=10000 acumulado=970000
+2026-10-07 22:35:49,863 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:50,502 INFO Carga Calendar: lote=10000 acumulado=980000
+2026-10-07 22:35:50,654 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:51,308 INFO Carga Calendar: lote=10000 acumulado=990000
+2026-10-07 22:35:51,453 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:52,084 INFO Carga Calendar: lote=10000 acumulado=1000000
+2026-10-07 22:35:52,248 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:52,884 INFO Carga Calendar: lote=10000 acumulado=1010000
+2026-10-07 22:35:53,034 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:53,677 INFO Carga Calendar: lote=10000 acumulado=1020000
+2026-10-07 22:35:53,826 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:54,454 INFO Carga Calendar: lote=10000 acumulado=1030000
+2026-10-07 22:35:54,598 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:35:55,210 INFO Carga Calendar: lote=10000 acumulado=1040000
+2026-10-07 22:35:55,352 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:04,285 INFO Carga Calendar: lote=10000 acumulado=1050000
+2026-10-07 22:36:04,420 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:05,010 INFO Carga Calendar: lote=10000 acumulado=1060000
+2026-10-07 22:36:05,154 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:05,718 INFO Carga Calendar: lote=10000 acumulado=1070000
+2026-10-07 22:36:05,874 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:06,485 INFO Carga Calendar: lote=10000 acumulado=1080000
+2026-10-07 22:36:06,620 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:07,200 INFO Carga Calendar: lote=10000 acumulado=1090000
+2026-10-07 22:36:07,347 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:07,952 INFO Carga Calendar: lote=10000 acumulado=1100000
+2026-10-07 22:36:08,107 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:08,718 INFO Carga Calendar: lote=10000 acumulado=1110000
+2026-10-07 22:36:08,851 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:09,619 INFO Carga Calendar: lote=10000 acumulado=1120000
+2026-10-07 22:36:09,800 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:10,454 INFO Carga Calendar: lote=10000 acumulado=1130000
+2026-10-07 22:36:10,589 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:11,163 INFO Carga Calendar: lote=10000 acumulado=1140000
+2026-10-07 22:36:11,319 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:11,937 INFO Carga Calendar: lote=10000 acumulado=1150000
+2026-10-07 22:36:12,088 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:12,646 INFO Carga Calendar: lote=10000 acumulado=1160000
+2026-10-07 22:36:12,787 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:13,341 INFO Carga Calendar: lote=10000 acumulado=1170000
+2026-10-07 22:36:13,488 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:14,071 INFO Carga Calendar: lote=10000 acumulado=1180000
+2026-10-07 22:36:14,221 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:14,789 INFO Carga Calendar: lote=10000 acumulado=1190000
+2026-10-07 22:36:14,929 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:15,508 INFO Carga Calendar: lote=10000 acumulado=1200000
+2026-10-07 22:36:15,647 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:16,244 INFO Carga Calendar: lote=10000 acumulado=1210000
+2026-10-07 22:36:16,380 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:16,962 INFO Carga Calendar: lote=10000 acumulado=1220000
+2026-10-07 22:36:17,105 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:17,686 INFO Carga Calendar: lote=10000 acumulado=1230000
+2026-10-07 22:36:17,834 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:18,419 INFO Carga Calendar: lote=10000 acumulado=1240000
+2026-10-07 22:36:18,554 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:19,148 INFO Carga Calendar: lote=10000 acumulado=1250000
+2026-10-07 22:36:19,293 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:19,862 INFO Carga Calendar: lote=10000 acumulado=1260000
+2026-10-07 22:36:20,008 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:20,606 INFO Carga Calendar: lote=10000 acumulado=1270000
+2026-10-07 22:36:20,740 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:21,321 INFO Carga Calendar: lote=10000 acumulado=1280000
+2026-10-07 22:36:21,479 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:22,070 INFO Carga Calendar: lote=10000 acumulado=1290000
+2026-10-07 22:36:22,209 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:22,828 INFO Carga Calendar: lote=10000 acumulado=1300000
+2026-10-07 22:36:22,969 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:23,552 INFO Carga Calendar: lote=10000 acumulado=1310000
+2026-10-07 22:36:23,693 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:24,294 INFO Carga Calendar: lote=10000 acumulado=1320000
+2026-10-07 22:36:24,427 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:24,996 INFO Carga Calendar: lote=10000 acumulado=1330000
+2026-10-07 22:36:25,135 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:25,701 INFO Carga Calendar: lote=10000 acumulado=1340000
+2026-10-07 22:36:25,839 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:26,436 INFO Carga Calendar: lote=10000 acumulado=1350000
+2026-10-07 22:36:26,588 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:27,189 INFO Carga Calendar: lote=10000 acumulado=1360000
+2026-10-07 22:36:27,349 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:27,932 INFO Carga Calendar: lote=10000 acumulado=1370000
+2026-10-07 22:36:28,071 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:28,665 INFO Carga Calendar: lote=10000 acumulado=1380000
+2026-10-07 22:36:28,803 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:29,371 INFO Carga Calendar: lote=10000 acumulado=1390000
+2026-10-07 22:36:29,508 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:30,079 INFO Carga Calendar: lote=10000 acumulado=1400000
+2026-10-07 22:36:30,216 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:30,802 INFO Carga Calendar: lote=10000 acumulado=1410000
+2026-10-07 22:36:30,943 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:31,537 INFO Carga Calendar: lote=10000 acumulado=1420000
+2026-10-07 22:36:31,689 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:32,286 INFO Carga Calendar: lote=10000 acumulado=1430000
+2026-10-07 22:36:32,429 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:33,001 INFO Carga Calendar: lote=10000 acumulado=1440000
+2026-10-07 22:36:33,144 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:33,732 INFO Carga Calendar: lote=10000 acumulado=1450000
+2026-10-07 22:36:33,869 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:34,470 INFO Carga Calendar: lote=10000 acumulado=1460000
+2026-10-07 22:36:34,616 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:35,198 INFO Carga Calendar: lote=10000 acumulado=1470000
+2026-10-07 22:36:35,335 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:35,962 INFO Carga Calendar: lote=10000 acumulado=1480000
+2026-10-07 22:36:36,098 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:36,685 INFO Carga Calendar: lote=10000 acumulado=1490000
+2026-10-07 22:36:36,829 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:37,435 INFO Carga Calendar: lote=10000 acumulado=1500000
+2026-10-07 22:36:37,586 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:38,169 INFO Carga Calendar: lote=10000 acumulado=1510000
+2026-10-07 22:36:38,330 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:38,916 INFO Carga Calendar: lote=10000 acumulado=1520000
+2026-10-07 22:36:39,049 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:39,646 INFO Carga Calendar: lote=10000 acumulado=1530000
+2026-10-07 22:36:39,777 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:40,328 INFO Carga Calendar: lote=10000 acumulado=1540000
+2026-10-07 22:36:40,467 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:41,036 INFO Carga Calendar: lote=10000 acumulado=1550000
+2026-10-07 22:36:41,179 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:41,791 INFO Carga Calendar: lote=10000 acumulado=1560000
+2026-10-07 22:36:41,928 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:42,548 INFO Carga Calendar: lote=10000 acumulado=1570000
+2026-10-07 22:36:42,687 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:43,295 INFO Carga Calendar: lote=10000 acumulado=1580000
+2026-10-07 22:36:43,423 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:44,024 INFO Carga Calendar: lote=10000 acumulado=1590000
+2026-10-07 22:36:44,165 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:44,774 INFO Carga Calendar: lote=10000 acumulado=1600000
+2026-10-07 22:36:44,910 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:45,505 INFO Carga Calendar: lote=10000 acumulado=1610000
+2026-10-07 22:36:45,655 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:46,247 INFO Carga Calendar: lote=10000 acumulado=1620000
+2026-10-07 22:36:46,391 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:47,018 INFO Carga Calendar: lote=10000 acumulado=1630000
+2026-10-07 22:36:47,148 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:47,734 INFO Carga Calendar: lote=10000 acumulado=1640000
+2026-10-07 22:36:47,882 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:48,455 INFO Carga Calendar: lote=10000 acumulado=1650000
+2026-10-07 22:36:48,593 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:49,205 INFO Carga Calendar: lote=10000 acumulado=1660000
+2026-10-07 22:36:49,344 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:49,903 INFO Carga Calendar: lote=10000 acumulado=1670000
+2026-10-07 22:36:50,055 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:50,622 INFO Carga Calendar: lote=10000 acumulado=1680000
+2026-10-07 22:36:50,753 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:51,348 INFO Carga Calendar: lote=10000 acumulado=1690000
+2026-10-07 22:36:51,496 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:52,074 INFO Carga Calendar: lote=10000 acumulado=1700000
+2026-10-07 22:36:52,226 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:52,876 INFO Carga Calendar: lote=10000 acumulado=1710000
+2026-10-07 22:36:53,034 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:53,606 INFO Carga Calendar: lote=10000 acumulado=1720000
+2026-10-07 22:36:53,746 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:54,340 INFO Carga Calendar: lote=10000 acumulado=1730000
+2026-10-07 22:36:54,485 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:55,066 INFO Carga Calendar: lote=10000 acumulado=1740000
+2026-10-07 22:36:55,211 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:55,788 INFO Carga Calendar: lote=10000 acumulado=1750000
+2026-10-07 22:36:55,925 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:56,499 INFO Carga Calendar: lote=10000 acumulado=1760000
+2026-10-07 22:36:56,638 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:57,411 INFO Carga Calendar: lote=10000 acumulado=1770000
+2026-10-07 22:36:57,562 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:58,139 INFO Carga Calendar: lote=10000 acumulado=1780000
+2026-10-07 22:36:58,295 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:58,885 INFO Carga Calendar: lote=10000 acumulado=1790000
+2026-10-07 22:36:59,025 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:36:59,621 INFO Carga Calendar: lote=10000 acumulado=1800000
+2026-10-07 22:36:59,758 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:00,355 INFO Carga Calendar: lote=10000 acumulado=1810000
+2026-10-07 22:37:00,500 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:01,078 INFO Carga Calendar: lote=10000 acumulado=1820000
+2026-10-07 22:37:01,230 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:01,830 INFO Carga Calendar: lote=10000 acumulado=1830000
+2026-10-07 22:37:01,968 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:02,568 INFO Carga Calendar: lote=10000 acumulado=1840000
+2026-10-07 22:37:02,701 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:03,281 INFO Carga Calendar: lote=10000 acumulado=1850000
+2026-10-07 22:37:03,440 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:04,052 INFO Carga Calendar: lote=10000 acumulado=1860000
+2026-10-07 22:37:04,223 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:04,797 INFO Carga Calendar: lote=10000 acumulado=1870000
+2026-10-07 22:37:04,939 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:05,550 INFO Carga Calendar: lote=10000 acumulado=1880000
+2026-10-07 22:37:05,692 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:06,321 INFO Carga Calendar: lote=10000 acumulado=1890000
+2026-10-07 22:37:06,563 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:07,156 INFO Carga Calendar: lote=10000 acumulado=1900000
+2026-10-07 22:37:07,306 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:07,893 INFO Carga Calendar: lote=10000 acumulado=1910000
+2026-10-07 22:37:08,039 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:08,638 INFO Carga Calendar: lote=10000 acumulado=1920000
+2026-10-07 22:37:08,773 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:09,351 INFO Carga Calendar: lote=10000 acumulado=1930000
+2026-10-07 22:37:09,499 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:10,053 INFO Carga Calendar: lote=10000 acumulado=1940000
+2026-10-07 22:37:10,196 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:10,788 INFO Carga Calendar: lote=10000 acumulado=1950000
+2026-10-07 22:37:10,919 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:11,504 INFO Carga Calendar: lote=10000 acumulado=1960000
+2026-10-07 22:37:11,651 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:12,249 INFO Carga Calendar: lote=10000 acumulado=1970000
+2026-10-07 22:37:12,387 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:12,976 INFO Carga Calendar: lote=10000 acumulado=1980000
+2026-10-07 22:37:13,120 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:13,713 INFO Carga Calendar: lote=10000 acumulado=1990000
+2026-10-07 22:37:13,852 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:14,439 INFO Carga Calendar: lote=10000 acumulado=2000000
+2026-10-07 22:37:14,576 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:15,176 INFO Carga Calendar: lote=10000 acumulado=2010000
+2026-10-07 22:37:15,333 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:15,909 INFO Carga Calendar: lote=10000 acumulado=2020000
+2026-10-07 22:37:16,051 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:16,637 INFO Carga Calendar: lote=10000 acumulado=2030000
+2026-10-07 22:37:16,792 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:17,370 INFO Carga Calendar: lote=10000 acumulado=2040000
+2026-10-07 22:37:17,512 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:18,095 INFO Carga Calendar: lote=10000 acumulado=2050000
+2026-10-07 22:37:18,255 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:18,829 INFO Carga Calendar: lote=10000 acumulado=2060000
+2026-10-07 22:37:18,979 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:19,574 INFO Carga Calendar: lote=10000 acumulado=2070000
+2026-10-07 22:37:19,712 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:20,320 INFO Carga Calendar: lote=10000 acumulado=2080000
+2026-10-07 22:37:20,463 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:21,047 INFO Carga Calendar: lote=10000 acumulado=2090000
+2026-10-07 22:37:21,185 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:26,693 INFO Carga Calendar: lote=10000 acumulado=2100000
+2026-10-07 22:37:26,838 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:27,425 INFO Carga Calendar: lote=10000 acumulado=2110000
+2026-10-07 22:37:27,568 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:28,130 INFO Carga Calendar: lote=10000 acumulado=2120000
+2026-10-07 22:37:28,285 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:28,879 INFO Carga Calendar: lote=10000 acumulado=2130000
+2026-10-07 22:37:29,008 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:29,576 INFO Carga Calendar: lote=10000 acumulado=2140000
+2026-10-07 22:37:29,711 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:30,292 INFO Carga Calendar: lote=10000 acumulado=2150000
+2026-10-07 22:37:30,442 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:31,040 INFO Carga Calendar: lote=10000 acumulado=2160000
+2026-10-07 22:37:31,195 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:31,773 INFO Carga Calendar: lote=10000 acumulado=2170000
+2026-10-07 22:37:31,915 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:32,520 INFO Carga Calendar: lote=10000 acumulado=2180000
+2026-10-07 22:37:32,669 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:33,239 INFO Carga Calendar: lote=10000 acumulado=2190000
+2026-10-07 22:37:33,377 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:34,044 INFO Carga Calendar: lote=10000 acumulado=2200000
+2026-10-07 22:37:34,188 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:34,781 INFO Carga Calendar: lote=10000 acumulado=2210000
+2026-10-07 22:37:34,916 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:35,470 INFO Carga Calendar: lote=10000 acumulado=2220000
+2026-10-07 22:37:35,604 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:36,170 INFO Carga Calendar: lote=10000 acumulado=2230000
+2026-10-07 22:37:36,313 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:36,882 INFO Carga Calendar: lote=10000 acumulado=2240000
+2026-10-07 22:37:37,026 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:37,580 INFO Carga Calendar: lote=10000 acumulado=2250000
+2026-10-07 22:37:37,726 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:38,306 INFO Carga Calendar: lote=10000 acumulado=2260000
+2026-10-07 22:37:38,459 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:39,052 INFO Carga Calendar: lote=10000 acumulado=2270000
+2026-10-07 22:37:39,193 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:39,758 INFO Carga Calendar: lote=10000 acumulado=2280000
+2026-10-07 22:37:39,896 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:40,476 INFO Carga Calendar: lote=10000 acumulado=2290000
+2026-10-07 22:37:40,610 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:41,176 INFO Carga Calendar: lote=10000 acumulado=2300000
+2026-10-07 22:37:41,325 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:41,896 INFO Carga Calendar: lote=10000 acumulado=2310000
+2026-10-07 22:37:42,028 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:42,609 INFO Carga Calendar: lote=10000 acumulado=2320000
+2026-10-07 22:37:42,746 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:43,307 INFO Carga Calendar: lote=10000 acumulado=2330000
+2026-10-07 22:37:43,443 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:43,996 INFO Carga Calendar: lote=10000 acumulado=2340000
+2026-10-07 22:37:44,138 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:44,708 INFO Carga Calendar: lote=10000 acumulado=2350000
+2026-10-07 22:37:44,847 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:45,404 INFO Carga Calendar: lote=10000 acumulado=2360000
+2026-10-07 22:37:45,541 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:46,125 INFO Carga Calendar: lote=10000 acumulado=2370000
+2026-10-07 22:37:46,282 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:46,847 INFO Carga Calendar: lote=10000 acumulado=2380000
+2026-10-07 22:37:46,983 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:47,548 INFO Carga Calendar: lote=10000 acumulado=2390000
+2026-10-07 22:37:47,675 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:48,233 INFO Carga Calendar: lote=10000 acumulado=2400000
+2026-10-07 22:37:48,368 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:48,923 INFO Carga Calendar: lote=10000 acumulado=2410000
+2026-10-07 22:37:49,065 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:49,616 INFO Carga Calendar: lote=10000 acumulado=2420000
+2026-10-07 22:37:49,784 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:50,376 INFO Carga Calendar: lote=10000 acumulado=2430000
+2026-10-07 22:37:50,515 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:51,121 INFO Carga Calendar: lote=10000 acumulado=2440000
+2026-10-07 22:37:51,278 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:51,885 INFO Carga Calendar: lote=10000 acumulado=2450000
+2026-10-07 22:37:52,028 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:52,649 INFO Carga Calendar: lote=10000 acumulado=2460000
+2026-10-07 22:37:52,796 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:53,379 INFO Carga Calendar: lote=10000 acumulado=2470000
+2026-10-07 22:37:53,532 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:54,160 INFO Carga Calendar: lote=10000 acumulado=2480000
+2026-10-07 22:37:54,311 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:54,884 INFO Carga Calendar: lote=10000 acumulado=2490000
+2026-10-07 22:37:55,043 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:55,638 INFO Carga Calendar: lote=10000 acumulado=2500000
+2026-10-07 22:37:55,776 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:56,401 INFO Carga Calendar: lote=10000 acumulado=2510000
+2026-10-07 22:37:56,530 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:57,134 INFO Carga Calendar: lote=10000 acumulado=2520000
+2026-10-07 22:37:57,294 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:57,879 INFO Carga Calendar: lote=10000 acumulado=2530000
+2026-10-07 22:37:58,098 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:58,681 INFO Carga Calendar: lote=10000 acumulado=2540000
+2026-10-07 22:37:58,826 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:37:59,420 INFO Carga Calendar: lote=10000 acumulado=2550000
+2026-10-07 22:37:59,573 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:00,164 INFO Carga Calendar: lote=10000 acumulado=2560000
+2026-10-07 22:38:00,333 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:00,924 INFO Carga Calendar: lote=10000 acumulado=2570000
+2026-10-07 22:38:01,086 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:01,698 INFO Carga Calendar: lote=10000 acumulado=2580000
+2026-10-07 22:38:01,850 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:02,450 INFO Carga Calendar: lote=10000 acumulado=2590000
+2026-10-07 22:38:02,609 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:03,190 INFO Carga Calendar: lote=10000 acumulado=2600000
+2026-10-07 22:38:03,357 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:03,908 INFO Carga Calendar: lote=10000 acumulado=2610000
+2026-10-07 22:38:04,050 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:04,640 INFO Carga Calendar: lote=10000 acumulado=2620000
+2026-10-07 22:38:04,775 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:05,365 INFO Carga Calendar: lote=10000 acumulado=2630000
+2026-10-07 22:38:05,506 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:06,063 INFO Carga Calendar: lote=10000 acumulado=2640000
+2026-10-07 22:38:06,204 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:06,804 INFO Carga Calendar: lote=10000 acumulado=2650000
+2026-10-07 22:38:06,956 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:07,515 INFO Carga Calendar: lote=10000 acumulado=2660000
+2026-10-07 22:38:07,653 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:08,224 INFO Carga Calendar: lote=10000 acumulado=2670000
+2026-10-07 22:38:08,363 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:08,941 INFO Carga Calendar: lote=10000 acumulado=2680000
+2026-10-07 22:38:09,078 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:09,675 INFO Carga Calendar: lote=10000 acumulado=2690000
+2026-10-07 22:38:09,827 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:10,393 INFO Carga Calendar: lote=10000 acumulado=2700000
+2026-10-07 22:38:10,533 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:11,133 INFO Carga Calendar: lote=10000 acumulado=2710000
+2026-10-07 22:38:11,295 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:11,883 INFO Carga Calendar: lote=10000 acumulado=2720000
+2026-10-07 22:38:12,035 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:12,622 INFO Carga Calendar: lote=10000 acumulado=2730000
+2026-10-07 22:38:12,758 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:13,347 INFO Carga Calendar: lote=10000 acumulado=2740000
+2026-10-07 22:38:13,483 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:14,053 INFO Carga Calendar: lote=10000 acumulado=2750000
+2026-10-07 22:38:14,193 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:14,784 INFO Carga Calendar: lote=10000 acumulado=2760000
+2026-10-07 22:38:14,931 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:15,499 INFO Carga Calendar: lote=10000 acumulado=2770000
+2026-10-07 22:38:15,645 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:16,236 INFO Carga Calendar: lote=10000 acumulado=2780000
+2026-10-07 22:38:16,376 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:16,960 INFO Carga Calendar: lote=10000 acumulado=2790000
+2026-10-07 22:38:17,097 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:17,707 INFO Carga Calendar: lote=10000 acumulado=2800000
+2026-10-07 22:38:17,843 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:18,465 INFO Carga Calendar: lote=10000 acumulado=2810000
+2026-10-07 22:38:18,605 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:19,173 INFO Carga Calendar: lote=10000 acumulado=2820000
+2026-10-07 22:38:19,336 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:19,905 INFO Carga Calendar: lote=10000 acumulado=2830000
+2026-10-07 22:38:20,034 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:20,636 INFO Carga Calendar: lote=10000 acumulado=2840000
+2026-10-07 22:38:20,771 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:21,357 INFO Carga Calendar: lote=10000 acumulado=2850000
+2026-10-07 22:38:21,518 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:22,090 INFO Carga Calendar: lote=10000 acumulado=2860000
+2026-10-07 22:38:22,246 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:22,822 INFO Carga Calendar: lote=10000 acumulado=2870000
+2026-10-07 22:38:22,972 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:23,538 INFO Carga Calendar: lote=10000 acumulado=2880000
+2026-10-07 22:38:23,687 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:24,271 INFO Carga Calendar: lote=10000 acumulado=2890000
+2026-10-07 22:38:24,399 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:24,954 INFO Carga Calendar: lote=10000 acumulado=2900000
+2026-10-07 22:38:25,100 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:25,684 INFO Carga Calendar: lote=10000 acumulado=2910000
+2026-10-07 22:38:25,830 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:26,438 INFO Carga Calendar: lote=10000 acumulado=2920000
+2026-10-07 22:38:26,576 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:27,155 INFO Carga Calendar: lote=10000 acumulado=2930000
+2026-10-07 22:38:27,305 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:27,892 INFO Carga Calendar: lote=10000 acumulado=2940000
+2026-10-07 22:38:28,023 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:28,614 INFO Carga Calendar: lote=10000 acumulado=2950000
+2026-10-07 22:38:28,849 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:29,441 INFO Carga Calendar: lote=10000 acumulado=2960000
+2026-10-07 22:38:29,579 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:30,160 INFO Carga Calendar: lote=10000 acumulado=2970000
+2026-10-07 22:38:30,312 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:30,909 INFO Carga Calendar: lote=10000 acumulado=2980000
+2026-10-07 22:38:31,040 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:31,633 INFO Carga Calendar: lote=10000 acumulado=2990000
+2026-10-07 22:38:31,766 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:32,385 INFO Carga Calendar: lote=10000 acumulado=3000000
+2026-10-07 22:38:32,535 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:33,113 INFO Carga Calendar: lote=10000 acumulado=3010000
+2026-10-07 22:38:33,262 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:33,863 INFO Carga Calendar: lote=10000 acumulado=3020000
+2026-10-07 22:38:33,991 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:34,579 INFO Carga Calendar: lote=10000 acumulado=3030000
+2026-10-07 22:38:34,725 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:35,280 INFO Carga Calendar: lote=10000 acumulado=3040000
+2026-10-07 22:38:35,413 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:36,002 INFO Carga Calendar: lote=10000 acumulado=3050000
+2026-10-07 22:38:36,132 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:36,701 INFO Carga Calendar: lote=10000 acumulado=3060000
+2026-10-07 22:38:36,854 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:37,436 INFO Carga Calendar: lote=10000 acumulado=3070000
+2026-10-07 22:38:37,581 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:38,159 INFO Carga Calendar: lote=10000 acumulado=3080000
+2026-10-07 22:38:38,320 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:38,883 INFO Carga Calendar: lote=10000 acumulado=3090000
+2026-10-07 22:38:39,024 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:39,607 INFO Carga Calendar: lote=10000 acumulado=3100000
+2026-10-07 22:38:39,742 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:40,325 INFO Carga Calendar: lote=10000 acumulado=3110000
+2026-10-07 22:38:40,465 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:41,053 INFO Carga Calendar: lote=10000 acumulado=3120000
+2026-10-07 22:38:41,190 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:41,770 INFO Carga Calendar: lote=10000 acumulado=3130000
+2026-10-07 22:38:41,929 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:42,520 INFO Carga Calendar: lote=10000 acumulado=3140000
+2026-10-07 22:38:42,676 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:48,097 INFO Carga Calendar: lote=10000 acumulado=3150000
+2026-10-07 22:38:48,239 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:48,788 INFO Carga Calendar: lote=10000 acumulado=3160000
+2026-10-07 22:38:48,934 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:49,505 INFO Carga Calendar: lote=10000 acumulado=3170000
+2026-10-07 22:38:49,643 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:50,199 INFO Carga Calendar: lote=10000 acumulado=3180000
+2026-10-07 22:38:50,351 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:50,912 INFO Carga Calendar: lote=10000 acumulado=3190000
+2026-10-07 22:38:51,061 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:51,634 INFO Carga Calendar: lote=10000 acumulado=3200000
+2026-10-07 22:38:51,808 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:52,401 INFO Carga Calendar: lote=10000 acumulado=3210000
+2026-10-07 22:38:52,550 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:53,169 INFO Carga Calendar: lote=10000 acumulado=3220000
+2026-10-07 22:38:53,321 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:53,908 INFO Carga Calendar: lote=10000 acumulado=3230000
+2026-10-07 22:38:54,052 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:54,647 INFO Carga Calendar: lote=10000 acumulado=3240000
+2026-10-07 22:38:54,792 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:55,392 INFO Carga Calendar: lote=10000 acumulado=3250000
+2026-10-07 22:38:55,527 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:56,146 INFO Carga Calendar: lote=10000 acumulado=3260000
+2026-10-07 22:38:56,304 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:56,889 INFO Carga Calendar: lote=10000 acumulado=3270000
+2026-10-07 22:38:57,026 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:57,655 INFO Carga Calendar: lote=10000 acumulado=3280000
+2026-10-07 22:38:57,817 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:58,382 INFO Carga Calendar: lote=10000 acumulado=3290000
+2026-10-07 22:38:58,519 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:59,103 INFO Carga Calendar: lote=10000 acumulado=3300000
+2026-10-07 22:38:59,247 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:38:59,861 INFO Carga Calendar: lote=10000 acumulado=3310000
+2026-10-07 22:39:00,010 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:00,569 INFO Carga Calendar: lote=10000 acumulado=3320000
+2026-10-07 22:39:00,705 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:01,319 INFO Carga Calendar: lote=10000 acumulado=3330000
+2026-10-07 22:39:01,460 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:02,120 INFO Carga Calendar: lote=10000 acumulado=3340000
+2026-10-07 22:39:02,276 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:02,871 INFO Carga Calendar: lote=10000 acumulado=3350000
+2026-10-07 22:39:03,010 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:03,583 INFO Carga Calendar: lote=10000 acumulado=3360000
+2026-10-07 22:39:03,715 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:04,288 INFO Carga Calendar: lote=10000 acumulado=3370000
+2026-10-07 22:39:04,429 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:05,019 INFO Carga Calendar: lote=10000 acumulado=3380000
+2026-10-07 22:39:05,160 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:05,738 INFO Carga Calendar: lote=10000 acumulado=3390000
+2026-10-07 22:39:05,866 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:06,441 INFO Carga Calendar: lote=10000 acumulado=3400000
+2026-10-07 22:39:06,576 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:07,173 INFO Carga Calendar: lote=10000 acumulado=3410000
+2026-10-07 22:39:07,329 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:07,906 INFO Carga Calendar: lote=10000 acumulado=3420000
+2026-10-07 22:39:08,043 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:08,626 INFO Carga Calendar: lote=10000 acumulado=3430000
+2026-10-07 22:39:08,772 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:09,323 INFO Carga Calendar: lote=10000 acumulado=3440000
+2026-10-07 22:39:09,476 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:10,019 INFO Carga Calendar: lote=10000 acumulado=3450000
+2026-10-07 22:39:10,149 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:10,756 INFO Carga Calendar: lote=10000 acumulado=3460000
+2026-10-07 22:39:10,894 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:11,453 INFO Carga Calendar: lote=10000 acumulado=3470000
+2026-10-07 22:39:11,598 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:12,193 INFO Carga Calendar: lote=10000 acumulado=3480000
+2026-10-07 22:39:12,385 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:12,956 INFO Carga Calendar: lote=10000 acumulado=3490000
+2026-10-07 22:39:13,102 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:13,675 INFO Carga Calendar: lote=10000 acumulado=3500000
+2026-10-07 22:39:13,811 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:14,412 INFO Carga Calendar: lote=10000 acumulado=3510000
+2026-10-07 22:39:14,547 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:15,116 INFO Carga Calendar: lote=10000 acumulado=3520000
+2026-10-07 22:39:15,261 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:15,840 INFO Carga Calendar: lote=10000 acumulado=3530000
+2026-10-07 22:39:15,983 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:16,559 INFO Carga Calendar: lote=10000 acumulado=3540000
+2026-10-07 22:39:16,708 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:17,301 INFO Carga Calendar: lote=10000 acumulado=3550000
+2026-10-07 22:39:17,436 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:18,019 INFO Carga Calendar: lote=10000 acumulado=3560000
+2026-10-07 22:39:18,161 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:18,754 INFO Carga Calendar: lote=10000 acumulado=3570000
+2026-10-07 22:39:18,895 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:19,531 INFO Carga Calendar: lote=10000 acumulado=3580000
+2026-10-07 22:39:19,674 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:20,240 INFO Carga Calendar: lote=10000 acumulado=3590000
+2026-10-07 22:39:20,379 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:20,967 INFO Carga Calendar: lote=10000 acumulado=3600000
+2026-10-07 22:39:21,096 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:21,663 INFO Carga Calendar: lote=10000 acumulado=3610000
+2026-10-07 22:39:21,823 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:22,418 INFO Carga Calendar: lote=10000 acumulado=3620000
+2026-10-07 22:39:22,549 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:23,111 INFO Carga Calendar: lote=10000 acumulado=3630000
+2026-10-07 22:39:23,262 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:23,827 INFO Carga Calendar: lote=10000 acumulado=3640000
+2026-10-07 22:39:23,970 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:24,562 INFO Carga Calendar: lote=10000 acumulado=3650000
+2026-10-07 22:39:24,697 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:25,260 INFO Carga Calendar: lote=10000 acumulado=3660000
+2026-10-07 22:39:25,391 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:25,958 INFO Carga Calendar: lote=10000 acumulado=3670000
+2026-10-07 22:39:26,099 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:26,696 INFO Carga Calendar: lote=10000 acumulado=3680000
+2026-10-07 22:39:26,847 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:27,437 INFO Carga Calendar: lote=10000 acumulado=3690000
+2026-10-07 22:39:27,570 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:28,171 INFO Carga Calendar: lote=10000 acumulado=3700000
+2026-10-07 22:39:28,328 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:28,879 INFO Carga Calendar: lote=10000 acumulado=3710000
+2026-10-07 22:39:29,014 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:29,611 INFO Carga Calendar: lote=10000 acumulado=3720000
+2026-10-07 22:39:29,746 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:30,347 INFO Carga Calendar: lote=10000 acumulado=3730000
+2026-10-07 22:39:30,497 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:31,064 INFO Carga Calendar: lote=10000 acumulado=3740000
+2026-10-07 22:39:31,205 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:31,819 INFO Carga Calendar: lote=10000 acumulado=3750000
+2026-10-07 22:39:31,971 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:32,582 INFO Carga Calendar: lote=10000 acumulado=3760000
+2026-10-07 22:39:32,723 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:33,321 INFO Carga Calendar: lote=10000 acumulado=3770000
+2026-10-07 22:39:33,456 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:34,053 INFO Carga Calendar: lote=10000 acumulado=3780000
+2026-10-07 22:39:34,188 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:34,772 INFO Carga Calendar: lote=10000 acumulado=3790000
+2026-10-07 22:39:34,910 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:35,485 INFO Carga Calendar: lote=10000 acumulado=3800000
+2026-10-07 22:39:35,632 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:36,243 INFO Carga Calendar: lote=10000 acumulado=3810000
+2026-10-07 22:39:36,394 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:36,960 INFO Carga Calendar: lote=10000 acumulado=3820000
+2026-10-07 22:39:37,103 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:37,693 INFO Carga Calendar: lote=10000 acumulado=3830000
+2026-10-07 22:39:37,830 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:38,415 INFO Carga Calendar: lote=10000 acumulado=3840000
+2026-10-07 22:39:38,553 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:39,111 INFO Carga Calendar: lote=10000 acumulado=3850000
+2026-10-07 22:39:39,263 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:39,843 INFO Carga Calendar: lote=10000 acumulado=3860000
+2026-10-07 22:39:39,981 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:40,589 INFO Carga Calendar: lote=10000 acumulado=3870000
+2026-10-07 22:39:40,733 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:41,306 INFO Carga Calendar: lote=10000 acumulado=3880000
+2026-10-07 22:39:41,459 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:42,041 INFO Carga Calendar: lote=10000 acumulado=3890000
+2026-10-07 22:39:42,184 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:42,769 INFO Carga Calendar: lote=10000 acumulado=3900000
+2026-10-07 22:39:42,904 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:43,506 INFO Carga Calendar: lote=10000 acumulado=3910000
+2026-10-07 22:39:43,659 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:44,232 INFO Carga Calendar: lote=10000 acumulado=3920000
+2026-10-07 22:39:44,388 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:44,949 INFO Carga Calendar: lote=10000 acumulado=3930000
+2026-10-07 22:39:45,085 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:45,686 INFO Carga Calendar: lote=10000 acumulado=3940000
+2026-10-07 22:39:45,822 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:46,386 INFO Carga Calendar: lote=10000 acumulado=3950000
+2026-10-07 22:39:46,533 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:47,095 INFO Carga Calendar: lote=10000 acumulado=3960000
+2026-10-07 22:39:47,246 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:47,832 INFO Carga Calendar: lote=10000 acumulado=3970000
+2026-10-07 22:39:47,964 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:48,557 INFO Carga Calendar: lote=10000 acumulado=3980000
+2026-10-07 22:39:48,693 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:49,279 INFO Carga Calendar: lote=10000 acumulado=3990000
+2026-10-07 22:39:49,420 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:50,053 INFO Carga Calendar: lote=10000 acumulado=4000000
+2026-10-07 22:39:50,202 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:50,779 INFO Carga Calendar: lote=10000 acumulado=4010000
+2026-10-07 22:39:50,939 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:51,511 INFO Carga Calendar: lote=10000 acumulado=4020000
+2026-10-07 22:39:51,657 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:52,247 INFO Carga Calendar: lote=10000 acumulado=4030000
+2026-10-07 22:39:52,405 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:52,978 INFO Carga Calendar: lote=10000 acumulado=4040000
+2026-10-07 22:39:53,137 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:53,722 INFO Carga Calendar: lote=10000 acumulado=4050000
+2026-10-07 22:39:53,867 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:54,476 INFO Carga Calendar: lote=10000 acumulado=4060000
+2026-10-07 22:39:54,621 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:55,222 INFO Carga Calendar: lote=10000 acumulado=4070000
+2026-10-07 22:39:55,377 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:55,939 INFO Carga Calendar: lote=10000 acumulado=4080000
+2026-10-07 22:39:56,093 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:56,725 INFO Carga Calendar: lote=10000 acumulado=4090000
+2026-10-07 22:39:56,875 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:57,475 INFO Carga Calendar: lote=10000 acumulado=4100000
+2026-10-07 22:39:57,613 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:58,204 INFO Carga Calendar: lote=10000 acumulado=4110000
+2026-10-07 22:39:58,352 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:58,922 INFO Carga Calendar: lote=10000 acumulado=4120000
+2026-10-07 22:39:59,073 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:39:59,641 INFO Carga Calendar: lote=10000 acumulado=4130000
+2026-10-07 22:39:59,787 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:00,380 INFO Carga Calendar: lote=10000 acumulado=4140000
+2026-10-07 22:40:00,523 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:01,120 INFO Carga Calendar: lote=10000 acumulado=4150000
+2026-10-07 22:40:01,265 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:01,840 INFO Carga Calendar: lote=10000 acumulado=4160000
+2026-10-07 22:40:02,008 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:02,630 INFO Carga Calendar: lote=10000 acumulado=4170000
+2026-10-07 22:40:02,768 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:03,381 INFO Carga Calendar: lote=10000 acumulado=4180000
+2026-10-07 22:40:03,539 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:04,130 INFO Carga Calendar: lote=10000 acumulado=4190000
+2026-10-07 22:40:04,296 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:09,763 INFO Carga Calendar: lote=10000 acumulado=4200000
+2026-10-07 22:40:09,904 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:10,486 INFO Carga Calendar: lote=10000 acumulado=4210000
+2026-10-07 22:40:10,628 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:11,201 INFO Carga Calendar: lote=10000 acumulado=4220000
+2026-10-07 22:40:11,364 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:11,983 INFO Carga Calendar: lote=10000 acumulado=4230000
+2026-10-07 22:40:12,127 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:12,727 INFO Carga Calendar: lote=10000 acumulado=4240000
+2026-10-07 22:40:12,859 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:13,450 INFO Carga Calendar: lote=10000 acumulado=4250000
+2026-10-07 22:40:13,586 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:14,179 INFO Carga Calendar: lote=10000 acumulado=4260000
+2026-10-07 22:40:14,334 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:14,923 INFO Carga Calendar: lote=10000 acumulado=4270000
+2026-10-07 22:40:15,061 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:15,667 INFO Carga Calendar: lote=10000 acumulado=4280000
+2026-10-07 22:40:15,813 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:16,406 INFO Carga Calendar: lote=10000 acumulado=4290000
+2026-10-07 22:40:16,544 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:17,151 INFO Carga Calendar: lote=10000 acumulado=4300000
+2026-10-07 22:40:17,289 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:17,887 INFO Carga Calendar: lote=10000 acumulado=4310000
+2026-10-07 22:40:18,053 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:18,650 INFO Carga Calendar: lote=10000 acumulado=4320000
+2026-10-07 22:40:18,791 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:19,359 INFO Carga Calendar: lote=10000 acumulado=4330000
+2026-10-07 22:40:19,500 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:20,097 INFO Carga Calendar: lote=10000 acumulado=4340000
+2026-10-07 22:40:20,239 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:20,836 INFO Carga Calendar: lote=10000 acumulado=4350000
+2026-10-07 22:40:20,982 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:21,558 INFO Carga Calendar: lote=10000 acumulado=4360000
+2026-10-07 22:40:21,704 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:22,293 INFO Carga Calendar: lote=10000 acumulado=4370000
+2026-10-07 22:40:22,435 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:23,035 INFO Carga Calendar: lote=10000 acumulado=4380000
+2026-10-07 22:40:23,170 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:23,762 INFO Carga Calendar: lote=10000 acumulado=4390000
+2026-10-07 22:40:23,900 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:24,506 INFO Carga Calendar: lote=10000 acumulado=4400000
+2026-10-07 22:40:24,644 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:25,256 INFO Carga Calendar: lote=10000 acumulado=4410000
+2026-10-07 22:40:25,401 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:25,959 INFO Carga Calendar: lote=10000 acumulado=4420000
+2026-10-07 22:40:26,093 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:26,689 INFO Carga Calendar: lote=10000 acumulado=4430000
+2026-10-07 22:40:26,832 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:27,428 INFO Carga Calendar: lote=10000 acumulado=4440000
+2026-10-07 22:40:27,569 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:28,151 INFO Carga Calendar: lote=10000 acumulado=4450000
+2026-10-07 22:40:28,309 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:28,873 INFO Carga Calendar: lote=10000 acumulado=4460000
+2026-10-07 22:40:29,013 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:29,591 INFO Carga Calendar: lote=10000 acumulado=4470000
+2026-10-07 22:40:29,727 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:30,321 INFO Carga Calendar: lote=10000 acumulado=4480000
+2026-10-07 22:40:30,457 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:31,055 INFO Carga Calendar: lote=10000 acumulado=4490000
+2026-10-07 22:40:31,197 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:31,779 INFO Carga Calendar: lote=10000 acumulado=4500000
+2026-10-07 22:40:31,930 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:32,521 INFO Carga Calendar: lote=10000 acumulado=4510000
+2026-10-07 22:40:32,650 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:33,232 INFO Carga Calendar: lote=10000 acumulado=4520000
+2026-10-07 22:40:33,389 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:33,957 INFO Carga Calendar: lote=10000 acumulado=4530000
+2026-10-07 22:40:34,108 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:34,694 INFO Carga Calendar: lote=10000 acumulado=4540000
+2026-10-07 22:40:34,858 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:35,435 INFO Carga Calendar: lote=10000 acumulado=4550000
+2026-10-07 22:40:35,578 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:36,155 INFO Carga Calendar: lote=10000 acumulado=4560000
+2026-10-07 22:40:36,311 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:36,901 INFO Carga Calendar: lote=10000 acumulado=4570000
+2026-10-07 22:40:37,046 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:37,655 INFO Carga Calendar: lote=10000 acumulado=4580000
+2026-10-07 22:40:37,793 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:38,384 INFO Carga Calendar: lote=10000 acumulado=4590000
+2026-10-07 22:40:38,529 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:39,105 INFO Carga Calendar: lote=10000 acumulado=4600000
+2026-10-07 22:40:39,260 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:39,845 INFO Carga Calendar: lote=10000 acumulado=4610000
+2026-10-07 22:40:39,980 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:40,565 INFO Carga Calendar: lote=10000 acumulado=4620000
+2026-10-07 22:40:40,697 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:41,318 INFO Carga Calendar: lote=10000 acumulado=4630000
+2026-10-07 22:40:41,457 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:42,067 INFO Carga Calendar: lote=10000 acumulado=4640000
+2026-10-07 22:40:42,212 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:42,792 INFO Carga Calendar: lote=10000 acumulado=4650000
+2026-10-07 22:40:42,930 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:43,520 INFO Carga Calendar: lote=10000 acumulado=4660000
+2026-10-07 22:40:43,654 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:44,251 INFO Carga Calendar: lote=10000 acumulado=4670000
+2026-10-07 22:40:44,403 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:44,998 INFO Carga Calendar: lote=10000 acumulado=4680000
+2026-10-07 22:40:45,136 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:45,721 INFO Carga Calendar: lote=10000 acumulado=4690000
+2026-10-07 22:40:45,861 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:47,387 INFO Carga Calendar: lote=10000 acumulado=4700000
+2026-10-07 22:40:47,651 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:48,268 INFO Carga Calendar: lote=10000 acumulado=4710000
+2026-10-07 22:40:48,416 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:49,003 INFO Carga Calendar: lote=10000 acumulado=4720000
+2026-10-07 22:40:49,144 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:49,733 INFO Carga Calendar: lote=10000 acumulado=4730000
+2026-10-07 22:40:49,864 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:50,431 INFO Carga Calendar: lote=10000 acumulado=4740000
+2026-10-07 22:40:50,574 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:51,168 INFO Carga Calendar: lote=10000 acumulado=4750000
+2026-10-07 22:40:51,318 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:51,894 INFO Carga Calendar: lote=10000 acumulado=4760000
+2026-10-07 22:40:52,043 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:52,641 INFO Carga Calendar: lote=10000 acumulado=4770000
+2026-10-07 22:40:52,788 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:53,550 INFO Carga Calendar: lote=10000 acumulado=4780000
+2026-10-07 22:40:53,694 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:54,296 INFO Carga Calendar: lote=10000 acumulado=4790000
+2026-10-07 22:40:54,447 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:55,063 INFO Carga Calendar: lote=10000 acumulado=4800000
+2026-10-07 22:40:55,225 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:55,839 INFO Carga Calendar: lote=10000 acumulado=4810000
+2026-10-07 22:40:55,987 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:56,574 INFO Carga Calendar: lote=10000 acumulado=4820000
+2026-10-07 22:40:56,724 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:57,311 INFO Carga Calendar: lote=10000 acumulado=4830000
+2026-10-07 22:40:57,461 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:58,060 INFO Carga Calendar: lote=10000 acumulado=4840000
+2026-10-07 22:40:58,201 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:58,759 INFO Carga Calendar: lote=10000 acumulado=4850000
+2026-10-07 22:40:58,907 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:40:59,473 INFO Carga Calendar: lote=10000 acumulado=4860000
+2026-10-07 22:40:59,609 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:00,183 INFO Carga Calendar: lote=10000 acumulado=4870000
+2026-10-07 22:41:00,336 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:00,921 INFO Carga Calendar: lote=10000 acumulado=4880000
+2026-10-07 22:41:01,055 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:01,618 INFO Carga Calendar: lote=10000 acumulado=4890000
+2026-10-07 22:41:01,759 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:02,335 INFO Carga Calendar: lote=10000 acumulado=4900000
+2026-10-07 22:41:02,485 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:03,073 INFO Carga Calendar: lote=10000 acumulado=4910000
+2026-10-07 22:41:03,204 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:03,789 INFO Carga Calendar: lote=10000 acumulado=4920000
+2026-10-07 22:41:03,936 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:04,520 INFO Carga Calendar: lote=10000 acumulado=4930000
+2026-10-07 22:41:04,663 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:05,243 INFO Carga Calendar: lote=10000 acumulado=4940000
+2026-10-07 22:41:05,392 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:05,950 INFO Carga Calendar: lote=10000 acumulado=4950000
+2026-10-07 22:41:06,089 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:06,700 INFO Carga Calendar: lote=10000 acumulado=4960000
+2026-10-07 22:41:06,843 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:07,453 INFO Carga Calendar: lote=10000 acumulado=4970000
+2026-10-07 22:41:07,597 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:08,201 INFO Carga Calendar: lote=10000 acumulado=4980000
+2026-10-07 22:41:08,347 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:08,963 INFO Carga Calendar: lote=10000 acumulado=4990000
+2026-10-07 22:41:09,129 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:09,735 INFO Carga Calendar: lote=10000 acumulado=5000000
+2026-10-07 22:41:09,888 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:10,477 INFO Carga Calendar: lote=10000 acumulado=5010000
+2026-10-07 22:41:10,619 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:11,340 INFO Carga Calendar: lote=10000 acumulado=5020000
+2026-10-07 22:41:11,501 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:12,148 INFO Carga Calendar: lote=10000 acumulado=5030000
+2026-10-07 22:41:12,307 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:12,888 INFO Carga Calendar: lote=10000 acumulado=5040000
+2026-10-07 22:41:13,054 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:13,638 INFO Carga Calendar: lote=10000 acumulado=5050000
+2026-10-07 22:41:13,792 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:14,384 INFO Carga Calendar: lote=10000 acumulado=5060000
+2026-10-07 22:41:14,521 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:15,107 INFO Carga Calendar: lote=10000 acumulado=5070000
+2026-10-07 22:41:15,280 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:15,880 INFO Carga Calendar: lote=10000 acumulado=5080000
+2026-10-07 22:41:16,026 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:16,622 INFO Carga Calendar: lote=10000 acumulado=5090000
+2026-10-07 22:41:16,758 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:17,342 INFO Carga Calendar: lote=10000 acumulado=5100000
+2026-10-07 22:41:17,479 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:18,071 INFO Carga Calendar: lote=10000 acumulado=5110000
+2026-10-07 22:41:18,213 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:18,813 INFO Carga Calendar: lote=10000 acumulado=5120000
+2026-10-07 22:41:18,947 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:19,539 INFO Carga Calendar: lote=10000 acumulado=5130000
+2026-10-07 22:41:19,680 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:20,261 INFO Carga Calendar: lote=10000 acumulado=5140000
+2026-10-07 22:41:20,408 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:20,987 INFO Carga Calendar: lote=10000 acumulado=5150000
+2026-10-07 22:41:21,124 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:21,707 INFO Carga Calendar: lote=10000 acumulado=5160000
+2026-10-07 22:41:21,865 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:22,457 INFO Carga Calendar: lote=10000 acumulado=5170000
+2026-10-07 22:41:22,618 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:23,266 INFO Carga Calendar: lote=10000 acumulado=5180000
+2026-10-07 22:41:23,413 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:23,992 INFO Carga Calendar: lote=10000 acumulado=5190000
+2026-10-07 22:41:24,144 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:24,701 INFO Carga Calendar: lote=10000 acumulado=5200000
+2026-10-07 22:41:24,852 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:25,428 INFO Carga Calendar: lote=10000 acumulado=5210000
+2026-10-07 22:41:25,561 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:26,152 INFO Carga Calendar: lote=10000 acumulado=5220000
+2026-10-07 22:41:26,293 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:26,877 INFO Carga Calendar: lote=10000 acumulado=5230000
+2026-10-07 22:41:27,027 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:27,617 INFO Carga Calendar: lote=10000 acumulado=5240000
+2026-10-07 22:41:27,757 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:33,454 INFO Carga Calendar: lote=10000 acumulado=5250000
+2026-10-07 22:41:33,602 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:34,182 INFO Carga Calendar: lote=10000 acumulado=5260000
+2026-10-07 22:41:34,335 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:34,928 INFO Carga Calendar: lote=10000 acumulado=5270000
+2026-10-07 22:41:35,076 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:35,660 INFO Carga Calendar: lote=10000 acumulado=5280000
+2026-10-07 22:41:35,801 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:36,462 INFO Carga Calendar: lote=10000 acumulado=5290000
+2026-10-07 22:41:36,609 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:37,206 INFO Carga Calendar: lote=10000 acumulado=5300000
+2026-10-07 22:41:37,359 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:37,955 INFO Carga Calendar: lote=10000 acumulado=5310000
+2026-10-07 22:41:38,092 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:38,680 INFO Carga Calendar: lote=10000 acumulado=5320000
+2026-10-07 22:41:38,835 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:39,424 INFO Carga Calendar: lote=10000 acumulado=5330000
+2026-10-07 22:41:39,569 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:40,177 INFO Carga Calendar: lote=10000 acumulado=5340000
+2026-10-07 22:41:40,320 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:40,909 INFO Carga Calendar: lote=10000 acumulado=5350000
+2026-10-07 22:41:41,063 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:41,660 INFO Carga Calendar: lote=10000 acumulado=5360000
+2026-10-07 22:41:41,812 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:42,422 INFO Carga Calendar: lote=10000 acumulado=5370000
+2026-10-07 22:41:42,594 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:43,191 INFO Carga Calendar: lote=10000 acumulado=5380000
+2026-10-07 22:41:43,351 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:43,940 INFO Carga Calendar: lote=10000 acumulado=5390000
+2026-10-07 22:41:44,101 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:44,683 INFO Carga Calendar: lote=10000 acumulado=5400000
+2026-10-07 22:41:44,827 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:45,408 INFO Carga Calendar: lote=10000 acumulado=5410000
+2026-10-07 22:41:45,550 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:46,122 INFO Carga Calendar: lote=10000 acumulado=5420000
+2026-10-07 22:41:46,257 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:46,843 INFO Carga Calendar: lote=10000 acumulado=5430000
+2026-10-07 22:41:46,993 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:47,602 INFO Carga Calendar: lote=10000 acumulado=5440000
+2026-10-07 22:41:47,735 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:48,312 INFO Carga Calendar: lote=10000 acumulado=5450000
+2026-10-07 22:41:48,461 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:49,030 INFO Carga Calendar: lote=10000 acumulado=5460000
+2026-10-07 22:41:49,172 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:49,758 INFO Carga Calendar: lote=10000 acumulado=5470000
+2026-10-07 22:41:49,893 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:50,476 INFO Carga Calendar: lote=10000 acumulado=5480000
+2026-10-07 22:41:50,606 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:51,195 INFO Carga Calendar: lote=10000 acumulado=5490000
+2026-10-07 22:41:51,340 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:51,909 INFO Carga Calendar: lote=10000 acumulado=5500000
+2026-10-07 22:41:52,062 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:52,645 INFO Carga Calendar: lote=10000 acumulado=5510000
+2026-10-07 22:41:52,782 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:53,370 INFO Carga Calendar: lote=10000 acumulado=5520000
+2026-10-07 22:41:53,513 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:54,116 INFO Carga Calendar: lote=10000 acumulado=5530000
+2026-10-07 22:41:54,267 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:54,866 INFO Carga Calendar: lote=10000 acumulado=5540000
+2026-10-07 22:41:55,017 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:55,601 INFO Carga Calendar: lote=10000 acumulado=5550000
+2026-10-07 22:41:55,729 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:56,321 INFO Carga Calendar: lote=10000 acumulado=5560000
+2026-10-07 22:41:56,456 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:57,026 INFO Carga Calendar: lote=10000 acumulado=5570000
+2026-10-07 22:41:57,162 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:57,756 INFO Carga Calendar: lote=10000 acumulado=5580000
+2026-10-07 22:41:57,908 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:58,471 INFO Carga Calendar: lote=10000 acumulado=5590000
+2026-10-07 22:41:58,630 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:59,212 INFO Carga Calendar: lote=10000 acumulado=5600000
+2026-10-07 22:41:59,393 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:41:59,973 INFO Carga Calendar: lote=10000 acumulado=5610000
+2026-10-07 22:42:00,127 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:00,715 INFO Carga Calendar: lote=10000 acumulado=5620000
+2026-10-07 22:42:00,856 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:01,427 INFO Carga Calendar: lote=10000 acumulado=5630000
+2026-10-07 22:42:01,561 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:02,168 INFO Carga Calendar: lote=10000 acumulado=5640000
+2026-10-07 22:42:02,324 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:02,919 INFO Carga Calendar: lote=10000 acumulado=5650000
+2026-10-07 22:42:03,067 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:03,636 INFO Carga Calendar: lote=10000 acumulado=5660000
+2026-10-07 22:42:03,768 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:04,403 INFO Carga Calendar: lote=10000 acumulado=5670000
+2026-10-07 22:42:04,547 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:05,116 INFO Carga Calendar: lote=10000 acumulado=5680000
+2026-10-07 22:42:05,256 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:05,823 INFO Carga Calendar: lote=10000 acumulado=5690000
+2026-10-07 22:42:05,974 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:06,559 INFO Carga Calendar: lote=10000 acumulado=5700000
+2026-10-07 22:42:06,691 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:07,273 INFO Carga Calendar: lote=10000 acumulado=5710000
+2026-10-07 22:42:07,436 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:08,004 INFO Carga Calendar: lote=10000 acumulado=5720000
+2026-10-07 22:42:08,148 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:08,745 INFO Carga Calendar: lote=10000 acumulado=5730000
+2026-10-07 22:42:08,886 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:09,502 INFO Carga Calendar: lote=10000 acumulado=5740000
+2026-10-07 22:42:09,656 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:10,236 INFO Carga Calendar: lote=10000 acumulado=5750000
+2026-10-07 22:42:10,410 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:10,973 INFO Carga Calendar: lote=10000 acumulado=5760000
+2026-10-07 22:42:11,118 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:11,745 INFO Carga Calendar: lote=10000 acumulado=5770000
+2026-10-07 22:42:11,890 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:12,523 INFO Carga Calendar: lote=10000 acumulado=5780000
+2026-10-07 22:42:12,662 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:13,269 INFO Carga Calendar: lote=10000 acumulado=5790000
+2026-10-07 22:42:13,438 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:14,029 INFO Carga Calendar: lote=10000 acumulado=5800000
+2026-10-07 22:42:14,169 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:14,772 INFO Carga Calendar: lote=10000 acumulado=5810000
+2026-10-07 22:42:14,907 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:15,541 INFO Carga Calendar: lote=10000 acumulado=5820000
+2026-10-07 22:42:15,687 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:16,286 INFO Carga Calendar: lote=10000 acumulado=5830000
+2026-10-07 22:42:16,440 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:17,058 INFO Carga Calendar: lote=10000 acumulado=5840000
+2026-10-07 22:42:17,205 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:17,823 INFO Carga Calendar: lote=10000 acumulado=5850000
+2026-10-07 22:42:17,975 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:18,577 INFO Carga Calendar: lote=10000 acumulado=5860000
+2026-10-07 22:42:18,723 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:19,352 INFO Carga Calendar: lote=10000 acumulado=5870000
+2026-10-07 22:42:19,494 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:20,076 INFO Carga Calendar: lote=10000 acumulado=5880000
+2026-10-07 22:42:20,211 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:20,801 INFO Carga Calendar: lote=10000 acumulado=5890000
+2026-10-07 22:42:20,953 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:21,531 INFO Carga Calendar: lote=10000 acumulado=5900000
+2026-10-07 22:42:21,674 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:22,290 INFO Carga Calendar: lote=10000 acumulado=5910000
+2026-10-07 22:42:22,439 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:23,025 INFO Carga Calendar: lote=10000 acumulado=5920000
+2026-10-07 22:42:23,177 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:23,742 INFO Carga Calendar: lote=10000 acumulado=5930000
+2026-10-07 22:42:23,878 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:24,458 INFO Carga Calendar: lote=10000 acumulado=5940000
+2026-10-07 22:42:24,594 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:25,165 INFO Carga Calendar: lote=10000 acumulado=5950000
+2026-10-07 22:42:25,312 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:25,907 INFO Carga Calendar: lote=10000 acumulado=5960000
+2026-10-07 22:42:26,046 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:26,642 INFO Carga Calendar: lote=10000 acumulado=5970000
+2026-10-07 22:42:26,787 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:27,400 INFO Carga Calendar: lote=10000 acumulado=5980000
+2026-10-07 22:42:27,542 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:28,124 INFO Carga Calendar: lote=10000 acumulado=5990000
+2026-10-07 22:42:28,280 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:28,874 INFO Carga Calendar: lote=10000 acumulado=6000000
+2026-10-07 22:42:29,012 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:29,576 INFO Carga Calendar: lote=10000 acumulado=6010000
+2026-10-07 22:42:29,737 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:30,307 INFO Carga Calendar: lote=10000 acumulado=6020000
+2026-10-07 22:42:30,450 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:31,064 INFO Carga Calendar: lote=10000 acumulado=6030000
+2026-10-07 22:42:31,210 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:31,819 INFO Carga Calendar: lote=10000 acumulado=6040000
+2026-10-07 22:42:31,971 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:32,554 INFO Carga Calendar: lote=10000 acumulado=6050000
+2026-10-07 22:42:32,690 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:33,269 INFO Carga Calendar: lote=10000 acumulado=6060000
+2026-10-07 22:42:33,435 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:33,987 INFO Carga Calendar: lote=10000 acumulado=6070000
+2026-10-07 22:42:34,134 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:34,710 INFO Carga Calendar: lote=10000 acumulado=6080000
+2026-10-07 22:42:34,858 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:35,494 INFO Carga Calendar: lote=10000 acumulado=6090000
+2026-10-07 22:42:35,646 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:36,238 INFO Carga Calendar: lote=10000 acumulado=6100000
+2026-10-07 22:42:36,387 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:36,961 INFO Carga Calendar: lote=10000 acumulado=6110000
+2026-10-07 22:42:37,115 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:37,700 INFO Carga Calendar: lote=10000 acumulado=6120000
+2026-10-07 22:42:37,849 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:38,464 INFO Carga Calendar: lote=10000 acumulado=6130000
+2026-10-07 22:42:38,629 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:39,231 INFO Carga Calendar: lote=10000 acumulado=6140000
+2026-10-07 22:42:39,405 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:40,028 INFO Carga Calendar: lote=10000 acumulado=6150000
+2026-10-07 22:42:40,172 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:40,794 INFO Carga Calendar: lote=10000 acumulado=6160000
+2026-10-07 22:42:40,977 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:41,593 INFO Carga Calendar: lote=10000 acumulado=6170000
+2026-10-07 22:42:41,743 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:42,352 INFO Carga Calendar: lote=10000 acumulado=6180000
+2026-10-07 22:42:42,497 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:43,084 INFO Carga Calendar: lote=10000 acumulado=6190000
+2026-10-07 22:42:43,236 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:43,826 INFO Carga Calendar: lote=10000 acumulado=6200000
+2026-10-07 22:42:43,963 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:44,546 INFO Carga Calendar: lote=10000 acumulado=6210000
+2026-10-07 22:42:44,683 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:45,276 INFO Carga Calendar: lote=10000 acumulado=6220000
+2026-10-07 22:42:45,425 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:46,002 INFO Carga Calendar: lote=10000 acumulado=6230000
+2026-10-07 22:42:46,152 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:46,733 INFO Carga Calendar: lote=10000 acumulado=6240000
+2026-10-07 22:42:46,888 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:47,506 INFO Carga Calendar: lote=10000 acumulado=6250000
+2026-10-07 22:42:47,640 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:48,222 INFO Carga Calendar: lote=10000 acumulado=6260000
+2026-10-07 22:42:48,381 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:48,956 INFO Carga Calendar: lote=10000 acumulado=6270000
+2026-10-07 22:42:49,104 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:49,699 INFO Carga Calendar: lote=10000 acumulado=6280000
+2026-10-07 22:42:49,833 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:50,419 INFO Carga Calendar: lote=10000 acumulado=6290000
+2026-10-07 22:42:50,552 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:56,284 INFO Carga Calendar: lote=10000 acumulado=6300000
+2026-10-07 22:42:56,434 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:57,013 INFO Carga Calendar: lote=10000 acumulado=6310000
+2026-10-07 22:42:57,165 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:57,736 INFO Carga Calendar: lote=10000 acumulado=6320000
+2026-10-07 22:42:57,888 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:58,583 INFO Carga Calendar: lote=10000 acumulado=6330000
+2026-10-07 22:42:58,721 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:42:59,286 INFO Carga Calendar: lote=10000 acumulado=6340000
+2026-10-07 22:42:59,428 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:00,021 INFO Carga Calendar: lote=10000 acumulado=6350000
+2026-10-07 22:43:00,162 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:00,737 INFO Carga Calendar: lote=10000 acumulado=6360000
+2026-10-07 22:43:00,866 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:01,424 INFO Carga Calendar: lote=10000 acumulado=6370000
+2026-10-07 22:43:01,562 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:02,137 INFO Carga Calendar: lote=10000 acumulado=6380000
+2026-10-07 22:43:02,281 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:02,843 INFO Carga Calendar: lote=10000 acumulado=6390000
+2026-10-07 22:43:02,975 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:03,585 INFO Carga Calendar: lote=10000 acumulado=6400000
+2026-10-07 22:43:03,721 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:04,303 INFO Carga Calendar: lote=10000 acumulado=6410000
+2026-10-07 22:43:04,448 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:05,014 INFO Carga Calendar: lote=10000 acumulado=6420000
+2026-10-07 22:43:05,150 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:05,731 INFO Carga Calendar: lote=10000 acumulado=6430000
+2026-10-07 22:43:05,867 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:06,439 INFO Carga Calendar: lote=10000 acumulado=6440000
+2026-10-07 22:43:06,571 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:07,156 INFO Carga Calendar: lote=10000 acumulado=6450000
+2026-10-07 22:43:07,297 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:07,872 INFO Carga Calendar: lote=10000 acumulado=6460000
+2026-10-07 22:43:08,013 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:08,597 INFO Carga Calendar: lote=10000 acumulado=6470000
+2026-10-07 22:43:08,739 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:09,358 INFO Carga Calendar: lote=10000 acumulado=6480000
+2026-10-07 22:43:09,490 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:10,049 INFO Carga Calendar: lote=10000 acumulado=6490000
+2026-10-07 22:43:10,186 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:10,759 INFO Carga Calendar: lote=10000 acumulado=6500000
+2026-10-07 22:43:10,887 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:11,460 INFO Carga Calendar: lote=10000 acumulado=6510000
+2026-10-07 22:43:11,602 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:12,173 INFO Carga Calendar: lote=10000 acumulado=6520000
+2026-10-07 22:43:12,311 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:12,887 INFO Carga Calendar: lote=10000 acumulado=6530000
+2026-10-07 22:43:13,029 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:13,616 INFO Carga Calendar: lote=10000 acumulado=6540000
+2026-10-07 22:43:13,749 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:14,318 INFO Carga Calendar: lote=10000 acumulado=6550000
+2026-10-07 22:43:14,447 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:15,014 INFO Carga Calendar: lote=10000 acumulado=6560000
+2026-10-07 22:43:15,145 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:15,709 INFO Carga Calendar: lote=10000 acumulado=6570000
+2026-10-07 22:43:15,847 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:16,418 INFO Carga Calendar: lote=10000 acumulado=6580000
+2026-10-07 22:43:16,553 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:17,141 INFO Carga Calendar: lote=10000 acumulado=6590000
+2026-10-07 22:43:17,288 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:17,843 INFO Carga Calendar: lote=10000 acumulado=6600000
+2026-10-07 22:43:17,985 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:18,572 INFO Carga Calendar: lote=10000 acumulado=6610000
+2026-10-07 22:43:18,710 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:19,291 INFO Carga Calendar: lote=10000 acumulado=6620000
+2026-10-07 22:43:19,446 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:20,024 INFO Carga Calendar: lote=10000 acumulado=6630000
+2026-10-07 22:43:20,172 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:20,775 INFO Carga Calendar: lote=10000 acumulado=6640000
+2026-10-07 22:43:20,919 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:21,498 INFO Carga Calendar: lote=10000 acumulado=6650000
+2026-10-07 22:43:21,641 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:22,247 INFO Carga Calendar: lote=10000 acumulado=6660000
+2026-10-07 22:43:22,436 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:23,011 INFO Carga Calendar: lote=10000 acumulado=6670000
+2026-10-07 22:43:23,148 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:23,758 INFO Carga Calendar: lote=10000 acumulado=6680000
+2026-10-07 22:43:23,895 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:24,490 INFO Carga Calendar: lote=10000 acumulado=6690000
+2026-10-07 22:43:24,636 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:25,215 INFO Carga Calendar: lote=10000 acumulado=6700000
+2026-10-07 22:43:25,361 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:25,938 INFO Carga Calendar: lote=10000 acumulado=6710000
+2026-10-07 22:43:26,074 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:26,647 INFO Carga Calendar: lote=10000 acumulado=6720000
+2026-10-07 22:43:26,782 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:27,423 INFO Carga Calendar: lote=10000 acumulado=6730000
+2026-10-07 22:43:27,579 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:28,149 INFO Carga Calendar: lote=10000 acumulado=6740000
+2026-10-07 22:43:28,287 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:28,868 INFO Carga Calendar: lote=10000 acumulado=6750000
+2026-10-07 22:43:29,011 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:29,584 INFO Carga Calendar: lote=10000 acumulado=6760000
+2026-10-07 22:43:29,726 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:30,295 INFO Carga Calendar: lote=10000 acumulado=6770000
+2026-10-07 22:43:30,448 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:31,009 INFO Carga Calendar: lote=10000 acumulado=6780000
+2026-10-07 22:43:31,154 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:31,722 INFO Carga Calendar: lote=10000 acumulado=6790000
+2026-10-07 22:43:31,862 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:32,443 INFO Carga Calendar: lote=10000 acumulado=6800000
+2026-10-07 22:43:32,583 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:33,176 INFO Carga Calendar: lote=10000 acumulado=6810000
+2026-10-07 22:43:33,318 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:33,887 INFO Carga Calendar: lote=10000 acumulado=6820000
+2026-10-07 22:43:34,022 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:34,587 INFO Carga Calendar: lote=10000 acumulado=6830000
+2026-10-07 22:43:34,724 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:35,304 INFO Carga Calendar: lote=10000 acumulado=6840000
+2026-10-07 22:43:35,449 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:36,014 INFO Carga Calendar: lote=10000 acumulado=6850000
+2026-10-07 22:43:36,155 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:36,726 INFO Carga Calendar: lote=10000 acumulado=6860000
+2026-10-07 22:43:36,863 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:37,449 INFO Carga Calendar: lote=10000 acumulado=6870000
+2026-10-07 22:43:37,582 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:38,137 INFO Carga Calendar: lote=10000 acumulado=6880000
+2026-10-07 22:43:38,272 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:38,848 INFO Carga Calendar: lote=10000 acumulado=6890000
+2026-10-07 22:43:38,981 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:39,542 INFO Carga Calendar: lote=10000 acumulado=6900000
+2026-10-07 22:43:39,692 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:40,267 INFO Carga Calendar: lote=10000 acumulado=6910000
+2026-10-07 22:43:40,415 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:41,004 INFO Carga Calendar: lote=10000 acumulado=6920000
+2026-10-07 22:43:41,147 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:41,747 INFO Carga Calendar: lote=10000 acumulado=6930000
+2026-10-07 22:43:41,881 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:42,453 INFO Carga Calendar: lote=10000 acumulado=6940000
+2026-10-07 22:43:42,597 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:43,184 INFO Carga Calendar: lote=10000 acumulado=6950000
+2026-10-07 22:43:43,330 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:43,910 INFO Carga Calendar: lote=10000 acumulado=6960000
+2026-10-07 22:43:44,047 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:44,616 INFO Carga Calendar: lote=10000 acumulado=6970000
+2026-10-07 22:43:44,757 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:45,332 INFO Carga Calendar: lote=10000 acumulado=6980000
+2026-10-07 22:43:45,483 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:46,035 INFO Carga Calendar: lote=10000 acumulado=6990000
+2026-10-07 22:43:46,175 INFO Calendar transformación: antes=10000 después=10000; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:46,739 INFO Carga Calendar: lote=10000 acumulado=7000000
+2026-10-07 22:43:46,793 INFO Calendar transformación: antes=3255 después=3255; nulos, conversiones, dominios, fechas y anidados auditados
+2026-10-07 22:43:46,967 INFO Carga Calendar: lote=3255 acumulado=7003255
+2026-10-07 22:43:46,967 INFO Calendar: extraídos 7003255
+2026-10-07 22:50:11,658 INFO Carga verificada y lista; filas=8055768 duración=1105.545s
+2026-10-07 22:50:11,662 INFO Conexión cerrada

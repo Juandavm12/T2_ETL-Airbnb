@@ -1,0 +1,5 @@
+2026-10-07 20:23:50,394 INFO Conexión MongoDB establecida
+2026-10-07 20:23:52,282 INFO Importadas y verificadas 19187 filas
+2026-10-07 20:24:02,386 INFO Importadas y verificadas 527731 filas
+2026-10-07 20:25:40,115 INFO Importadas y verificadas 7003255 filas
+2026-10-07 20:25:40,119 INFO Conexión cerrada
