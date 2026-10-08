@@ -178,7 +178,9 @@ y ejecuta todas las celdas. La primera verifica el intérprete del proyecto;
 no basta un alias global. En PowerShell usa `.\.venv\Scripts\python.exe`
 y variables `$env:JUPYTER_CONFIG_DIR`, `$env:JUPYTER_DATA_DIR`,
 `$env:JUPYTER_RUNTIME_DIR`, `$env:IPYTHONDIR` con las mismas rutas locales;
-`--prefix` debe apuntar a `.venv`. Windows no fue ejecutado en esta validación.
+`--prefix` debe apuntar a `.venv`. La ejecución del notebook EDA no se ha
+validado en Fedora (WSL) ni Windows; en ambos se verificaron la instalación,
+`pip check` y las 53 pruebas.
 
 Alternativa batch (tras registrar el kernel local), sin tolerar errores:
 
@@ -375,7 +377,9 @@ Todos los 11 hashes, manifest y log byte a byte comprobados (430,157 s).
 30 muestras por clave y 20 fronteras de partición (15,511 s) conservan Unicode
 y NULL; ceros iniciales solo corroborados con pruebas, no muestra real.
 Corpus de escapes XML/control pasa. MongoDB ping/conteos sin cambios; **sin
-snapshot ni comparación exhaustiva del contenido fuente**. Windows no probado.
+snapshot ni comparación exhaustiva del contenido fuente**. La ejecución completa
+del ETL y la carga SQLite/XLSX no se han validado en Fedora (WSL) ni Windows;
+la validación en esos entornos se limitó a instalación, `pip check` y 53 pruebas.
 
 `salidas/` y logs operativos están ignorados; para repositorio público conservar
 solo evidencia pequeña JSON/log revisada sin datos privados. Datasets, SQLite,
