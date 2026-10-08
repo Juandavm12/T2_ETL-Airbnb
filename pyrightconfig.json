@@ -1,6 +1,0 @@
-{
-  "venvPath": ".",
-  "venv": ".venv",
-  "include": ["src", "main.py", "tests"],
-  "pythonVersion": "3.14"
-}

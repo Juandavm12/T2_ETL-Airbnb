@@ -138,7 +138,6 @@ Repositorio público [T2_ETL-Airbnb](https://github.com/Juandavm12/T2_ETL-Airbnb
 publicado en `main`, según confirmación remota del coordinador.
 Pendiente: informe PDF, después de la publicación según el orden solicitado.
 Integrantes y responsabilidades asignadas se detallan arriba; PDF no terminado.
-Revisión e histórico: [PLAN.md](PLAN.md).
 
 ## Reproducir el EDA sin reimportar
 
